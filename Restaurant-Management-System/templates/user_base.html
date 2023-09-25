@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+<div class="menu_block">
+    <ul class="navbar">
+        <li><a href="/" class="menu_link">Home</a></li>
+        <li><a href="/about" class="menu_link">About Us</a></li>
+        <li><a href="/menu" class="menu_link">Our Menu</a></li>
+        <li><a href="/gallery" class="menu_link">Gallery</a></li>
+        <li><a href="/contact" class="menu_link">Contact</a></li>
+        <li><a href="/book_a_table" class="menu_link">Book A Table</a></li>
+    </ul>
+</div>
+
+{% block content %}{% endblock %}
+
+</body>
+</html>
