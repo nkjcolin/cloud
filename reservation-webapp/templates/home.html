@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block style %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+{% endblock style %}
+
+{% block title %}
+    <h1 style="text-align: center;">Restaurant Reservation System</h1>
+{% endblock title %}
+
+{% block search %}
+    <div class="container">
+        <div class="row height d-flex justify-content-center align-items-center">
+            <div class="col-md-6">
+                <div class="form">
+                    <i class="fa fa-search"></i>
+                    <input type="text" class="form-control form-input" placeholder="Search Restaurants">
+                    <span class="left-pan d-block">
+                        <input class="date-picker" name="Date" id="Date" placeholder="Pick Date">
+                        <i class="fa fa-calendar"></i>
+                    </span>
+
+                    <button type="button" class="btn btn-dark btn-lg">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.datepicker.setDefaults({
+                dateFormat: 'yy-mm-dd'
+            });
+            $(function(){
+                $('#Date').datepicker({ minDate: 0, maxDate: "+3M"});
+            });
+        });
+    </script>
+{% endblock search %}
