@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block style %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='restaurant_profile_style.css') }}">
+{% endblock style %}
+
+{% block body %}
+<div class="container container-info">
+    <div class="row">
+        <h1>ABC PRATA HOUSE</h1>
+    </div>
+    <div class="row">
+        <h3>Opening Hours: 8:00 - 22:00</h3>
+    </div>
+    <div class="row">
+        <h4>Address: Woodlands Drive 14</h4>
+    </div>
+</div>
+
+<div class="container container-slots">
+    <div class="row">
+        <h4>Available reservation slots</h4>
+    </div>
+    <div class="row button-container">
+        <!-- Use a for loop to populate here dynamically-->
+        <button type="button" class="btn btn-primary">Slot 1</button>
+        <button type="button" class="btn btn-primary">Slot 2</button>
+        <button type="button" class="btn btn-primary">Slot 3</button>
+    </div>
+</div>
+{% endblock body %}

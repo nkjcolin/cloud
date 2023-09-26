@@ -1,0 +1,22 @@
+.container-info{
+    padding-top: 50px;
+    height: 30vh;
+}
+
+.container-slots{
+    padding-top: 100px;
+}
+
+.button-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+.button-container button{
+    text-align: center;
+    width: 150px;
+}
+  
+  
