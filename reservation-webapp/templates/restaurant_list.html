@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block style %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='restaurant_list_style.css') }}">
+{% endblock style %}
+
+{% block body %}
+    <div class="container container-accordion">
+        <div class="accordion">
+            <!-- populate each accordion item to each restaurant dynamically-->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Accordion Item #1
+                    </button>
+                </h2>
+
+                <div id="collapseOne" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <P>
+                            abc restaurant ...
+                        </P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock body %}

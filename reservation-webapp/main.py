@@ -6,6 +6,10 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
+@app.route("/restaurants")
+def restaurants_list():
+    return render_template('restaurant_list.html')
+
 @app.route("/restaurant/abc") #replace abc dynamically, restaurant remains static
 def restaurant_profile():
     return render_template('restaurant_profile.html')
