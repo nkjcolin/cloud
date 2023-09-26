@@ -1,22 +1,11 @@
-# cloud
-cloud project
+pip/pip3 install pipenv
 
-Windows setup 
+try pipenv --version, something should pop up
 
-git clone https://github.com/nkjcolin/cloud.git
+after cloning repository, open folder in vscode and in vscode terminal run:
 
-rename .gitignore to .env
+pipenv sync
 
-Run sql file 
+local venv should be created in your computer, select the interpreter in that venv as your project interpreter
 
-configure .env settings to your own 
-
-python -m venv .venv 
-
-cd .venv\Scripts
-
-.\activate 
-
-pip3 install -r requirements.txt
-
-python main.py 
+access local webserver in browser type "127.0.0.1:5000"
