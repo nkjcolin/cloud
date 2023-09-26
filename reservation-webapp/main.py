@@ -14,5 +14,9 @@ def restaurants_list():
 def restaurant_profile():
     return render_template('restaurant_profile.html')
 
+@app.route("/form")
+def particulars_form():
+    return render_template('particulars_form.html')
+
 if __name__ == '__main__':
     app.run(debug=True)

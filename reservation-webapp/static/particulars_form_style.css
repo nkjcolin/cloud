@@ -1,0 +1,9 @@
+.form-label{
+    font-weight: bold;
+}
+
+.form-control{
+    border-color: 000;
+    border-radius: 10px;
+    height: 55px;
+}
