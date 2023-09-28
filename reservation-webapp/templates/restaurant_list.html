@@ -7,22 +7,16 @@
 {% block body %}
     <div class="container container-accordion">
         <div class="accordion">
-            <!-- populate each accordion item to each restaurant dynamically-->
+            <!-- Iterate through restaurant_data and populate each clickable item -->
+            {% for restaurant in restaurant_data %}
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        Accordion Item #1
-                    </button>
+                    <a href="/restaurant/{{ restaurant.name | replace(' ', '_') }}" class="accordion-button">
+                        {{ restaurant.name }} <!-- Display restaurant name dynamically -->
+                    </a>
                 </h2>
-
-                <div id="collapseOne" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <P>
-                            abc restaurant ...
-                        </P>
-                    </div>
-                </div>
             </div>
+            {% endfor %}
         </div>
     </div>
 {% endblock body %}
