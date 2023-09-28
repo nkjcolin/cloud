@@ -10,6 +10,16 @@
     position: relative;
 }
 
+.form-label{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.form-select{
+    width: 200px;
+    border-radius: 10px;
+}
+
 .form .fa-search{
     position: absolute;
     top: 20px;
@@ -49,6 +59,6 @@
 }
 
 .form button{
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
 }
