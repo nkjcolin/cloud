@@ -8,25 +8,25 @@
     <div class="container">
         <h3>Your booking for time variable here</h3>
 
-        <form>
+        <form method="POST" action="/form"> 
             <div class="mb-3">
-                <label for="FormControlInputName" class="form-label">Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
             </div>
 
             <div class="mb-3">
-                <label for="FormControlInputPhone" class="form-label">Phone Number</label>
-                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="87654321">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="number" class="form-control" id="phone" name="phone">
             </div>
 
             <div class="mb-3">
-                <label for="FormControlInputEmail" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
             </div>
 
             <div class="mb-3">
                 <label for="FormControlInputSize" class="form-label">Party Size</label>
-                <select class="form-select form-control">
+                <select class="form-select form-control" id="size" name="size">
                     <option value="1">1 person</option>
                     <option value="2">2 people</option>
                     <option value="3">3 people</option>
@@ -37,7 +37,7 @@
                     <option value="8">8 people</option>
                     <option value="9">9 people</option>
                     <option value="10">10 people</option>
-                    <option value="11">More than 10 people</option> <!-- Detect 11 means more than 10 people-->
+                    <option value="11">More than 10 people</option> 
                 </select>
             </div>
 
@@ -45,3 +45,4 @@
         </form>
     </div>
 {% endblock body %}
+
