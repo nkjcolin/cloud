@@ -7,25 +7,56 @@
 {% block body %}
 <div class="container container-info">
     <div class="row">
-        <h1>ABC PRATA HOUSE</h1>
+        <h1>{{ restaurant_data.name }}</h1>
     </div>
     <div class="row">
         <h3>Opening Hours: 8:00 - 22:00</h3>
     </div>
     <div class="row">
-        <h4>Address: Woodlands Drive 14</h4>
+        <h4>{{ restaurant_data.description }}</h4>
     </div>
 </div>
 
-<div class="container container-slots">
+<div class="container container-booking-form">
+    <br> <!-- Add a line break here to separate the sections -->
     <div class="row">
-        <h4>Available reservation slots</h4>
+        <h4>Book a Table</h4>
     </div>
-    <div class="row button-container">
-        <!-- Use a for loop to populate here dynamically-->
-        <button type="button" class="btn btn-primary">Slot 1</button>
-        <button type="button" class="btn btn-primary">Slot 2</button>
-        <button type="button" class="btn btn-primary">Slot 3</button>
+    <div class="row">
+        <form method="POST" action="/form"> 
+            <div class="mb-3">
+                <label for="timing" class="form-label">Available reservation slots</label>
+                <select id="timing" name="timing" class="form-select">
+                    <option value="" disabled selected>Select a timing</option>
+                    {% for slot in restaurant_data.timings.split(',') %}
+                        <option value="{{ slot.strip('[]') }}">{{ slot.strip('[]') }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="number" class="form-control" id="phone" name="phone">
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+            </div>
+
+            <div class="mb-3">
+                <label for="size" class="form-label">Party Size</label>
+                <select class="form-select form-control" id="size" name="size">
+                    <option value="1">1 person</option>
+                    <option value="2">2 people</option>
+                    <!-- Add more options as needed -->
+                </select>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
     </div>
 </div>
 {% endblock body %}

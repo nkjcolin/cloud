@@ -11,8 +11,8 @@
             {% for restaurant in restaurant_data %}
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <a href="/restaurant/{{ restaurant.name | replace(' ', '_') }}" class="accordion-button">
-                        {{ restaurant.name }} <!-- Display restaurant name dynamically -->
+                    <a href="{{ url_for('restaurant_profile', id=restaurant.id) }}" class="accordion-button">
+                        {{ restaurant.name }}
                     </a>
                 </h2>
             </div>

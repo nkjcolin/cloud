@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reservation Confirmation</title>
+</head>
+<body>
+    <h1>Reservation Confirmation</h1>
+    <p>Thank you for booking a table with us!</p>
+    <p>Your reservation details:</p>
+    <ul>
+        <li><strong>Name:</strong> {{ form_data.name }}</li>
+        <li><strong>Phone Number:</strong> {{ form_data.phone }}</li>
+        <li><strong>Email:</strong> {{ form_data.email }}</li>
+        <li><strong>Timing:</strong> {{ form_data.timing }}</li>
+        <li><strong>Party Size:</strong> {{ form_data.size }} people</li>
+    </ul>
+    <p>We look forward to serving you at our restaurant.</p>
+</body>
+</html>

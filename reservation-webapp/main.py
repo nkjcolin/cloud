@@ -3,17 +3,16 @@ from flask import Flask, request, render_template, url_for, redirect, session, f
 from flask_mysqldb import MySQL
 import re
 import os
-
+import ast
 
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'secretsecret'
 app.config['MYSQL_DB'] = 'clouddb2'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'admin'
+app.config['MYSQL_HOST'] = 'aws-cloud-db.c51u88x7edpw.us-east-1.rds.amazonaws.com'
+app.config['MYSQL_PASSWORD'] = 'password'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
-
-#app.config['MYSQL_PASSWORD'] = os.getenv('MYSQL_PASSWORD')
 
 mysql = MySQL(app)
 
@@ -44,10 +43,12 @@ def search_restaurants():
     # Iterate through the results and extract relevant information
     for row in results:
         restaurant_info = {
+            'id': row['id'],
             'name': row['name'],
             'dietary_needs': row['dietary_needs'],
             'meal_type': row['meal_type'],
             'timings': row['timings'],
+            'description': row['description'],
             # Add more fields as needed
         }
         restaurant_data.append(restaurant_info)
@@ -60,22 +61,39 @@ def search_restaurants():
 def restaurants_list():
     return render_template('restaurant_list.html')
 
-@app.route("/restaurant/abc") #replace abc dynamically, restaurant remains static
-def restaurant_profile():
-    return render_template('restaurant_profile.html')
+@app.route("/restaurant/<int:id>")
+def restaurant_profile(id):
+    cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+    cursor.execute('SELECT * FROM restaurants WHERE id = %s', (id,))
+    restaurant_data = cursor.fetchone()
+    cursor.close()
+    return render_template('restaurant_profile.html', restaurant_data=restaurant_data)
 
-@app.route("/form", methods=['GET', 'POST'])
+
+@app.route("/form", methods=['POST'])
 def particulars_form():
     if request.method == "POST":
         name = request.form['name']
         phone = request.form['phone']
         email = request.form['email']
+        timing = request.form['timing']
         size = request.form['size']
-        cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
-        cursor.execute("INSERT INTO particulars VALUES (NULL, %s, %s, %s, %s)", (name, phone, email, size))
-        cursor.connection.commit()
-        cursor.close()
-    return render_template('particulars_form.html')
+
+        # Save the form data in a dictionary
+        form_data = {
+            'name': name,
+            'phone': phone,
+            'email': email,
+            'timing': timing,
+            'size': size,
+        }
+
+        # Assuming you have a success.html template
+        return render_template('success.html', form_data=form_data)
+
+    # Handle GET requests or other cases
+    return render_template('error.html')  # You can create an error.html template for error cases
+
 
 if __name__ == '__main__':
     app.run(debug=True)

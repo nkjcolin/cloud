@@ -11,25 +11,30 @@ DROP DATABASE IF EXISTS `clouddb2`;
 CREATE DATABASE IF NOT EXISTS `clouddb2` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
 USE `clouddb2`;
 
-DROP TABLE IF EXISTS `particulars`;
-CREATE TABLE IF NOT EXISTS `particulars` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) NOT NULL DEFAULT '0',
-  `phone` varchar(50) NOT NULL DEFAULT '0',
-  `email` varchar(50) NOT NULL DEFAULT '0',
-  `size` int(11) NOT NULL DEFAULT 0,
-  PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+DROP TABLE IF EXISTS particulars;
+CREATE TABLE IF NOT EXISTS particulars (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL DEFAULT '0',
+  phone VARCHAR(50) NOT NULL DEFAULT '0',
+  email VARCHAR(50) NOT NULL DEFAULT '0',
+  size INT NOT NULL DEFAULT 0
+) ENGINE=InnoDB;
 
-DROP TABLE IF EXISTS `restaurants`;
-CREATE TABLE IF NOT EXISTS `restaurants` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) NOT NULL DEFAULT '0',
-  `dietary_needs` varchar(50) NOT NULL DEFAULT '0',
-  `meal_type` varchar(50) NOT NULL DEFAULT '0',
-  `timings` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+DROP TABLE IF EXISTS restaurants;
+CREATE TABLE IF NOT EXISTS restaurants (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL DEFAULT '0',
+  dietary_needs VARCHAR(50) NOT NULL DEFAULT '0',
+  meal_type VARCHAR(50) NOT NULL DEFAULT '0',
+  timings JSON, -- Use JSON data type for storing an array of timings
+  description TEXT -- Add a description column
+) ENGINE=InnoDB;
+
+INSERT INTO restaurants (name, dietary_needs, meal_type, timings, description)
+VALUES
+    ('Restaurant 1', 'Healthy', 'Light', '["12:00 PM", "1:00 PM", "7:00 PM"]', 'Description 1'),
+    ('Restaurant 2', 'Healthy', 'Medium', '["11:30 AM", "2:30 PM", "8:00 PM"]', 'Description 2');
+    ('Restaurant 3', 'Healthy', 'Light', '["11:30 AM", "2:30 PM", "8:00 PM"]', 'Description 3');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
