@@ -7,7 +7,6 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
-DROP DATABASE IF EXISTS `clouddb2`;
 CREATE DATABASE IF NOT EXISTS `clouddb2` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
 USE `clouddb2`;
 
@@ -33,8 +32,9 @@ CREATE TABLE IF NOT EXISTS restaurants (
 INSERT INTO restaurants (name, dietary_needs, meal_type, timings, description)
 VALUES
     ('Restaurant 1', 'Healthy', 'Light', '["12:00 PM", "1:00 PM", "7:00 PM"]', 'Description 1'),
-    ('Restaurant 2', 'Healthy', 'Medium', '["11:30 AM", "2:30 PM", "8:00 PM"]', 'Description 2');
+    ('Restaurant 2', 'Healthy', 'Medium', '["11:30 AM", "2:30 PM", "8:00 PM"]', 'Description 2'),
     ('Restaurant 3', 'Healthy', 'Light', '["11:30 AM", "2:30 PM", "8:00 PM"]', 'Description 3');
+
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
