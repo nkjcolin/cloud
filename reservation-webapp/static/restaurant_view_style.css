@@ -1,9 +1,9 @@
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   
   .card {
-    margin: 10px; /* Add margin to individual cards */
+    margin: 20px; /* Add margin to individual cards */
   }
