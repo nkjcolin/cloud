@@ -11,7 +11,7 @@ app.config['MYSQL_DB'] = 'clouddb2'
 # app.config['MYSQL_PASSWORD'] = 'pmB6YW7fYDuRo0Be8sEJ'
 
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '12345678'
+app.config['MYSQL_PASSWORD'] = 'root'
 app.config['MYSQL_HOST'] = 'localhost'
 
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
@@ -57,11 +57,7 @@ def search_restaurants():
 
     # Close the cursor and MySQL connection
     cursor.close()
-    return render_template('restaurant_list.html', restaurant_data=restaurant_data)
-
-@app.route("/restaurants")
-def restaurants_list():
-    return render_template('restaurant_list.html')
+    return render_template('restaurants_view.html', restaurant_data=restaurant_data)
 
 @app.route("/allrestaurants", methods=['GET'])
 def restaurants_view():
