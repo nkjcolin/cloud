@@ -11,6 +11,7 @@ app.config['MYSQL_DB'] = 'clouddb2'
 # app.config['MYSQL_PASSWORD'] = 'pmB6YW7fYDuRo0Be8sEJ'
 
 app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = '12345678'
 app.config['MYSQL_HOST'] = 'localhost'
 
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
@@ -61,6 +62,37 @@ def search_restaurants():
 @app.route("/restaurants")
 def restaurants_list():
     return render_template('restaurant_list.html')
+
+@app.route("/allrestaurants", methods=['GET'])
+def restaurants_view():
+    # Create a cursor for executing SQL queries
+    cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+
+    # Create a list to store restaurant data
+    restaurant_data = []
+
+    # Build and execute the SQL query
+    query = "SELECT * FROM restaurants"
+    cursor.execute(query)
+
+    # Fetch all matching rows
+    results = cursor.fetchall()
+
+    # Show all result
+    for row in results:
+        restaurant_info = {
+            'id': row['id'],
+            'name': row['name'],
+            'dietary_needs': row['dietary_needs'],
+            'meal_type': row['meal_type'],
+            'timings': row['timings'],
+            'description': row['description'],
+            # Add more fields as needed
+        }
+        restaurant_data.append(restaurant_info)
+    # Close the cursor and MySQL connection
+    cursor.close()
+    return render_template('restaurants_view.html', restaurant_data=restaurant_data)
 
 @app.route("/restaurant/<int:id>")
 def restaurant_profile(id):

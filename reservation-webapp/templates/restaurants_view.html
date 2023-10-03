@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block style %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='restaurant_view.css') }}">
+{% endblock style %}
+
+
+{% block body %}
+<div class="card-container">
+
+    {% for restaurant in restaurant_data %}
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{ restaurant.name }}</h5>
+            <p class="card-text">{{ restaurant.description }}</p>
+            <a href="#" class="btn btn-primary">View</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock body %}
