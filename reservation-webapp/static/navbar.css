@@ -1,0 +1,9 @@
+.justify-content-center-navbar{
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+}
+.nav-item a{
+    font-size: 24px;
+    color: black;
+}
