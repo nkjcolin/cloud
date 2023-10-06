@@ -25,7 +25,7 @@ To Dockerize this Flask application, follow these steps:
 2. Build the Docker image using the following command, replacing `docker_username/python-flask` with your desired image name:
 
 ```bash
-   docker build -t docker_username/python-flask:latest .
+docker build -t docker_username/python-flask:latest .
 ```
 
 ### Pulling the Docker Image (Optional)
@@ -41,7 +41,7 @@ docker container run -d -p 5000:5000 docker_username/python-flask:latest
 
 ## Kubernetes Deployment 
 
-# create deployment in k8 
+# Create Deployment 
 ```bash
 kubectl create -f deployment.yaml
 ```
