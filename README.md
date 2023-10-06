@@ -40,4 +40,7 @@ http://localhost:5000
 ```bash
 kubectl create -f deployment.yaml
 ```
-
+### Run deployment (Testing)
+```bash
+minikube service my-flask-app-service
+```
