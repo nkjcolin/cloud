@@ -1,3 +1,9 @@
+# Restaurant Reservation Management System
+
+## Overview
+
+This project implements a distributed restaurant reservation management system capable of handling high traffic and providing high availability. We achieve this by using Kubernetes to deploy Docker containers containing a Flask-based application.
+
 ## Dockerizing the Application
 
 ### Building the Docker Image
@@ -23,14 +29,15 @@ docker image pull hub_username/python-flask:latest
 docker container run -d -p 5000:5000 docker_username/python-flask:latest
 ```
 
-## Kubernetes Deployment 
+### Accessing the Application
+```bash
+http://localhost:5000
+```
 
-# Create Deployment 
+## Kubernetes Deployment (TBC)
+
+### Create Deployment 
 ```bash
 kubectl create -f deployment.yaml
 ```
 
-## Accessing the Application
-```bash
-http://localhost:5000
-```
