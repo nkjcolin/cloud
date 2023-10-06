@@ -6,13 +6,13 @@ app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'secretsecret'
 app.config['MYSQL_DB'] = 'clouddb2'
-# app.config['MYSQL_USER'] = 'admin'
-# app.config['MYSQL_HOST'] = 'aws-cloud-db.c51u88x7edpw.us-east-1.rds.amazonaws.com'
-# app.config['MYSQL_PASSWORD'] = 'pmB6YW7fYDuRo0Be8sEJ'
+app.config['MYSQL_USER'] = 'admin'
+app.config['MYSQL_HOST'] = 'aws-cloud-db.c51u88x7edpw.us-east-1.rds.amazonaws.com'
+app.config['MYSQL_PASSWORD'] = 'pmB6YW7fYDuRo0Be8sEJ'
 
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'root'
-app.config['MYSQL_HOST'] = 'localhost'
+# app.config['MYSQL_USER'] = 'root'
+# app.config['MYSQL_PASSWORD'] = 'root'
+# app.config['MYSQL_HOST'] = 'localhost'
 
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
@@ -108,6 +108,11 @@ def particulars_form():
         timing = request.form['timing']
         size = request.form['size']
 
+        cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+        cursor.execute("INSERT INTO particulars VALUES (NULL, %s, %s, %s, %s, %s)", (name, phone, email, size, timing))
+        cursor.connection.commit()
+        cursor.close()
+
         # Save the form data in a dictionary
         form_data = {
             'name': name,
@@ -125,6 +130,6 @@ def particulars_form():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
     # make it accessible from your host machine when dockerising the app 
-    #app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000)
