@@ -34,13 +34,49 @@ docker container run -d -p 5000:5000 docker_username/python-flask:latest
 http://localhost:5000
 ```
 
-## Kubernetes Deployment (TBC)
+## EC2 Kubernetes Set Up & Deployment 
 
-### Create Deployment 
+### Update the instance packages
+```bash
+sudo apt update
+```
+
+### Install Docker & Conntrack
+```bash
+sudo apt -y install docker.io
+sudo apt install conntrack
+```
+
+
+### Installation of kubectl and minikube 
+```bash
+curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && chmod +x ./kubectl && sudo mv ./kubectl /usr/local/bin/kubectl
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
+```
+
+### Add the current user to the docker group
+```bash
+sudo usermod -aG docker $USER && newgrp docker
+```
+
+### Docker login
+```bash
+docker login 
+```
+
+### Create Deployment & Service 
 ```bash
 kubectl create -f deployment.yaml
 ```
-### Run deployment (Testing)
+
+### Forward the traffic from 5000 port to 80
 ```bash
-minikube service my-flask-app-service
+kubectl port-forward svc/my-flask-app-service 5000:80 --address 0.0.0.0 &
 ```
+
+### Access the web application 
+```bash
+public_ip_adress:5000
+```
+
+
