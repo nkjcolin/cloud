@@ -71,7 +71,7 @@ kubectl create -f deployment.yaml
 
 ### Forward the traffic from 5000 port to 80
 ```bash
-kubectl port-forward svc/my-flask-app-service 5000:80 --address 0.0.0.0 &
+nohup kubectl port-forward svc/my-flask-app-service 5000:80 --address 0.0.0.0 &
 ```
 
 ### Access the web application 
