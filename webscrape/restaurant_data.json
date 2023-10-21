@@ -1,0 +1,440 @@
+[
+    {
+        "name": "1864, Sofitel Singapore City Centre",
+        "location": "Tanjong Pagar",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011948_list_5be4ca49-c1da-47da-8f9a-c80091913162.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "98 Bistro @ Kampong Bahru Rd",
+        "location": "Outram",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012152_list_e3a9d346-9229-4f68-8b7a-32890dfd8af7.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "Ai Cafe @ Horne Road",
+        "location": "Bendemeer",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011786_list_7768d315-b055-446a-a6fa-3b1a7d0579ae.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Alter Ego @ Esplanade Mall",
+        "location": "City Hall",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5003823_list_d3dfc653-3c01-4096-ae85-cfc5bc4bb103.jpg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Anglo Indian Caf\u00e9 & Bar @ 1 Shenton Way",
+        "location": "Raffles Place",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_AngloIndianCafeampBar_20150915142744_5645.jpg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Anglo Indian Caf\u00e9 & Bar @ Chijmes",
+        "location": "City Hall",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_AngloIndianCafeampBarChijmes_20170731105833_8103.jpg",
+        "rating": "4.4"
+    },
+    {
+        "name": "Anglo Indian Caf\u00e9 & Bar @ Marina One",
+        "location": "Marina Bay",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_3c323f0e6fa9efd85e1cbd7e42fb9ab9_20180427183633_7830.jpg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Atrium Restaurant @ Holiday Inn Singapore Atrium",
+        "location": "River Valley",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/980_list_2ce935b1-d76c-42dd-a808-aa0ae07c35d9.png",
+        "rating": "3.7"
+    },
+    {
+        "name": "Ayasofya Turkish Restaurant @ Bussorah St",
+        "location": "Bugis",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5004111_list_f07e1033-e780-406a-8839-316aa577a163.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Azmi Tandoori Restaurant @ Syed Alwi Road",
+        "location": "Syed Alwi",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011928_list_3152c889-b7d7-49cc-a99d-cf6f7b675286.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "BAAN KANOM THAI @ ARC380",
+        "location": "Bugis",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011744_list_f61713a3-7848-49dc-b896-f277fd87d570.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Bahaus by CDC",
+        "location": "Bendemeer",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011957_list_869ac2d9-1683-43db-b1be-b782ba80fece.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Banjara Fine Dining Restaurant @ Changi Business Park",
+        "location": "Changi",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5009516_list_6f0c89d1-156e-4274-8ef6-aaf6ad036d81.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Bar Intermezzo @ Orchard Hotel",
+        "location": "Orchard",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011070_list_de1ea1a9-7d40-4cb9-be45-2088e707e8c7.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "Bar Soccer @ Kallang Wave Mall",
+        "location": "Kallang",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011540_list_1754ea2c-37f2-464b-8d52-e9ead9768002.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "Bar-beque @ Prinsep Street",
+        "location": "Dhoby Ghaut",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011685_list_3ae9dd2b-95c4-4f09-a9fd-e547f46e6c04.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "BBQ Box @ East Coast",
+        "location": "East Coast",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5010895_list_ae382b21-3245-4600-adbf-6535a988ae15.jpeg",
+        "rating": "4.8"
+    },
+    {
+        "name": "BBQ Under The Stars @ Gallop",
+        "location": "Sixth Avenue",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011748_list_1d801523-05e9-4c07-a8b5-275120caf3e6.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Beats Bites & Cocktails @ Bukit Pasoh Rd",
+        "location": "Rochor",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012177_list_0fe0ea1b-7fa3-42b3-ae3a-afa6e032596a.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "Bee Cheng Hiang Grillery @ Serangoon",
+        "location": "Serangoon",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5003001_list_216f414e-bc01-4e65-86c3-6ae6fac85bdc.jpg",
+        "rating": "4.6"
+    },
+    {
+        "name": "Blue Jasmine @ Holiday Inn Singapore Little India",
+        "location": "Farrer Park",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2806_list_a8e61888-ebb0-4f9d-b084-78cd2be4e41a.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Brew House Sports Bar @ Sembawang Road",
+        "location": "Sembawang",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011989_list_9c08cf47-ede1-44a1-af7a-0e73bb06f482.jpeg",
+        "rating": "4.5"
+    },
+    {
+        "name": "British Indian Curry Hut @ Holland Village",
+        "location": "Holland Village (Road)",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_BritishIndianCurryHut_20171012180421_6320.jpg",
+        "rating": "4.0"
+    },
+    {
+        "name": "Brooklyn Bar Sg @ Ann Siang Road",
+        "location": "Telok Ayer",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012054_list_d816d1db-7328-464d-abcc-5d90544cd2b2.jpeg",
+        "rating": "4.6"
+    },
+    {
+        "name": "Buey Tahan See-Food x THAI BBQ @ Tampines",
+        "location": "Tampines",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011947_list_2d475d36-8115-43cd-8527-f6d00be7605a.jpeg",
+        "rating": "4.8"
+    },
+    {
+        "name": "Byblos Grill @ Bussorah Street",
+        "location": "Bugis",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2226_list_2f6662d9-4e19-4cc1-b773-ef0e4913726d.jpeg",
+        "rating": "4.3"
+    },
+    {
+        "name": "Caf\u00e9 2000 @ M Hotel",
+        "location": "Tanjong Pagar",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/1527_list_27bc1144-18d8-4395-b010-d522ffd1a08d.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "Caf\u00e9 de Paris @ 313 Somerset",
+        "location": "Somerset",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5004716_list_a712eae0-957a-4eeb-ab64-76c52cfecc05.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "CALI @ Raffles Place",
+        "location": "Raffles Place",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5002197_list_1def11fc-878a-4111-8b8c-52f5c84b29e5.jpeg",
+        "rating": "4.3"
+    },
+    {
+        "name": "CALI @ Rochester",
+        "location": "Buona Vista",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_CaliRochester_20180410102551_7866.jpg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Canjob Taproom @ Tiong Bahru",
+        "location": "Tiong Bahru",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_CanjobTaproom_20180426190855_9517.jpg",
+        "rating": "4.6"
+    },
+    {
+        "name": "Cantina @ Arab Street",
+        "location": "Bugis",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011807_list_eba68e95-a46b-4596-bb37-4bf623349fe6.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Casablanca @ Arab Street",
+        "location": "Bugis",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011750_list_27eac512-d03d-45bc-8470-434c6e64eb0f.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Cha Cha Cha Mexican Restaurant @ Holland Village",
+        "location": "Holland Village (Road)",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5004751_list_9e267d38-689c-4d05-9037-0b18b30ea398.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "Charcoal Grill and Bar by Kurry Korner @ River Valley",
+        "location": "River Valley",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2561_list_37eee97c-7047-4838-a736-3162b31dc150.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "Charlie's Paradiso @ Boat Quay",
+        "location": "Boat Quay",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5002338_list_91a57b41-9f77-46ee-bf3f-3c76248cc28b.jpg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Charlie's Restaurant & Bar @ Boat Quay",
+        "location": "Boat Quay",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_CharliesTapasGrillBar_20160728154914_7329.jpg",
+        "rating": "4.4"
+    },
+    {
+        "name": "Chicken Hotpot @ Compass One",
+        "location": "Sengkang",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_ChickenHotpotCompassOne_20180629101425_0409.jpg",
+        "rating": "4.4"
+    },
+    {
+        "name": "Chicken Hotpot @ Novena Square 2",
+        "location": "Novena",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_ChickenHotpotNovenaSquare2_20180124102845_6392.jpg",
+        "rating": "4.2"
+    },
+    {
+        "name": "Chok Dee Mookata @ T-Space",
+        "location": "Tampines",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011936_list_289b7330-29a0-4d9a-87c9-e37f9a7e57c9.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Chongqing Premium Grilled Fish @ Kinex",
+        "location": "Paya Lebar",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5010732_list_f22092c0-21b7-4bf3-b44d-9874aca6c612.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Chunky Lobsters Signature @ Orchard Gateway",
+        "location": "Orchard",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012055_list_356ec441-41c8-4f66-9ce4-d38d05f52651.jpeg",
+        "rating": "4.4"
+    },
+    {
+        "name": "Clover Plant Based Kitchen & Bar",
+        "location": "",
+        "imageLink": "https://cdn.eatigo.com/filters:format(jpeg)/restaurant-cover-image/5012155_list_cc2b2062-1cea-4656-9640-202058ba99cb.jpeg",
+        "rating": "4.6"
+    },
+    {
+        "name": "Club A380 @ Jalan Besar",
+        "location": "Jalan Besar",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011824_list_04ee0bd2-71d8-4bd5-8954-c7181b778b2a.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Coca Restaurant @ Leisure Park Kallang",
+        "location": "Kallang",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2734_list_3ec7a9f8-1158-4707-914a-fc681cc3e02d.jpg",
+        "rating": "4.1"
+    },
+    {
+        "name": "Coca Restaurant @ Ngee Ann City",
+        "location": "Orchard",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2736_list_4936b0fe-c1d1-4e0e-9062-39e73ebb8758.jpg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Coca Restaurant @ Suntec City",
+        "location": "Marina Square",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5001236_list_d895f00d-49f8-469e-aa88-de122abe75fe.jpg",
+        "rating": "4.1"
+    },
+    {
+        "name": "Communal Coffee @ Prinsep Street",
+        "location": "Bugis",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011699_list_290a1653-51fc-475f-abca-455cee0f30fc.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Crab Cartel @ Bugis Junction",
+        "location": "Bugis",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011823_list_4f49241d-2aa7-4932-8ffa-46c2c75a1b12.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "Crab Wang Imperial Dining @ Hotel Boss",
+        "location": "Lavender",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012156_list_53480e77-f8e7-45c4-9214-7f98d36537ce.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Crossroads Bar @ Paradox Singapore Merchant Court",
+        "location": "Clarke Quay",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2376_list_5eabdd8b-b2b2-43cd-8449-44f29aec5da6.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Crossroads Buffet @ Singapore Marriott Tang Plaza Hotel",
+        "location": "Orchard",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/3255_list_eea726bb-3f53-40ca-b6e5-c02ead20a13a.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Crossroads Cafe @ Singapore Marriott Tang Plaza Hotel",
+        "location": "Orchard",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011679_list_e39ea0ec-2a1d-4945-8214-bc3985661a02.jpeg",
+        "rating": "4.1"
+    },
+    {
+        "name": "Daijoubu @ Singapore Management University",
+        "location": "Prinsep Street",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012182_list_59c91cbd-e984-4f7d-ab9b-2e925b76abe3.jpeg",
+        "rating": "4.7"
+    },
+    {
+        "name": "Darbar @ Tanjong Katong",
+        "location": "Tanjong Katong",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011404_list_574ccbbc-e52d-421d-8b0b-7842e08b5cc1.jpeg",
+        "rating": "4.7"
+    },
+    {
+        "name": "Darts Buddy @ Alexandra Road",
+        "location": "Alexandra Road",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5008382_list_036e462d-c5e0-43b1-99e7-4a4fca50f381.jpg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Darts Buddy Bistro Cafe & Pizzeria @ Beatty Road",
+        "location": "Lavender",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011354_list_1c55ef15-6a6a-4ea1-ad7d-2c2b41ae7f08.jpeg",
+        "rating": "0"
+    },
+    {
+        "name": "Dating Fish Music Theme Restaurant \u9c7c\u4f60\u6709\u7ea6 @ Mosque Street",
+        "location": "Chinatown",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5004590_list_5ccd8ef3-b665-4965-b5bc-905b8c9625e8.jpeg",
+        "rating": "4.6"
+    },
+    {
+        "name": "Der Biergarten @ Prinsep Street",
+        "location": "Dhoby Ghaut",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011700_list_cfc0d016-4d7f-46f8-92dc-a5f668a070da.jpeg",
+        "rating": "3.8"
+    },
+    {
+        "name": "Dertien SG @ Sembawang Road",
+        "location": "Sembawang",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011800_list_3226b787-3368-484c-bf32-13f692b79aa3.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Dim Sum Haus @ Marina Bay Financial Centre",
+        "location": "Marina Bay",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011731_list_9c3c155f-c06d-4d53-9b4e-ea46b0cdc579.jpeg",
+        "rating": "4.6"
+    },
+    {
+        "name": "Dindigul Thalappakatti Restaurant @ Kitchener Road",
+        "location": "Farrer Park",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5005584_list_931cda6f-b358-47b9-808c-3b0f12f7d10f.jpg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Drunk Skunk @ Boat Quay",
+        "location": "Circular Road",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012064_list_9f116555-ee3d-4af2-b35b-409906f94f81.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "Dum Pukht Grill + Curry @ Boat Quay",
+        "location": "Boat Quay",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5007349_list_52d44e53-d08b-40a1-a4f6-a935d0958f5e.jpg",
+        "rating": "4.0"
+    },
+    {
+        "name": "Dwaraka Restaurant @ Little India",
+        "location": "Farrer Park",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011438_list_f9a10b40-7d8a-4a52-a700-29765cdbe7ef.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "\u5927\u5bb6\u90fd\u597d Da Jia Dou Hao Fruit Restaurant @ East Coast Road",
+        "location": "East Coast",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012146_list_4cd41b65-007c-4e11-851f-9ddd84698fe7.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "Ellenborough Market Caf\u00e9 @ Paradox Singapore",
+        "location": "Clarke Quay",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2375_list_08726335-17bc-4fdc-989c-1cc1c844d341.jpeg",
+        "rating": "0"
+    },
+    {
+        "name": "Enchanted Cafe - The Fairytale Garden @ Farrer Park",
+        "location": "Farrer Park",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011858_list_068db3e7-c50a-4ad7-90bc-9ab7bc908f39.jpeg",
+        "rating": "4.7"
+    },
+    {
+        "name": "Enchanted Cafe - The Secret Garden @ Bukit Timah",
+        "location": "Bukit Timah",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011860_list_bebf1b21-fd88-4721-b8ef-c21e3e390e61.png",
+        "rating": "0.0"
+    },
+    {
+        "name": "Enchanted Cafe - The Treehouse @ Bedok",
+        "location": "Bedok",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011859_list_5d112253-00fe-4df3-9fab-1b77ec82999c.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Escape @ One Farrer Hotel",
+        "location": "Farrer Park",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2664_list_30d12c2a-71e7-4169-bf17-a8fdddba87f8.png",
+        "rating": "0.0"
+    },
+    {
+        "name": "Eventasty @ 100AM",
+        "location": "Tanjong Pagar",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5009048_list_bed6645e-3c54-4e55-92d2-8f9cceb3a519.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "Eventasty @ Funan Mall",
+        "location": "City Hall",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5005500_list_50420a03-57df-411f-bed2-3831524b2680.jpeg",
+        "rating": "4.0"
+    }
+]
