@@ -1,0 +1,62 @@
+[
+    {
+        "name": "1864, Sofitel Singapore City Centre",
+        "location": "Tanjong Pagar",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011948_list_5be4ca49-c1da-47da-8f9a-c80091913162.jpeg",
+        "rating": "4.0"
+    },
+    {
+        "name": "98 Bistro @ Kampong Bahru Rd",
+        "location": "Outram",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012152_list_e3a9d346-9229-4f68-8b7a-32890dfd8af7.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Ai Cafe @ Horne Road",
+        "location": "Bendemeer",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011786_list_7768d315-b055-446a-a6fa-3b1a7d0579ae.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Alter Ego @ Esplanade Mall",
+        "location": "City Hall",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5003823_list_d3dfc653-3c01-4096-ae85-cfc5bc4bb103.jpg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Anglo Indian Caf\u00e9 & Bar @ 1 Shenton Way",
+        "location": "Raffles Place",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_AngloIndianCafeampBar_20150915142744_5645.jpg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Anglo Indian Caf\u00e9 & Bar @ Chijmes",
+        "location": "City Hall",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_AngloIndianCafeampBarChijmes_20170731105833_8103.jpg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Anglo Indian Caf\u00e9 & Bar @ Marina One",
+        "location": "Marina Bay",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_3c323f0e6fa9efd85e1cbd7e42fb9ab9_20180427183633_7830.jpg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Atrium Restaurant @ Holiday Inn Singapore Atrium",
+        "location": "River Valley",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/980_list_2ce935b1-d76c-42dd-a808-aa0ae07c35d9.png",
+        "rating": "0.0"
+    },
+    {
+        "name": "Ayasofya Turkish Restaurant @ Bussorah St",
+        "location": "Bugis",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5004111_list_f07e1033-e780-406a-8839-316aa577a163.jpeg",
+        "rating": "0.0"
+    },
+    {
+        "name": "Azmi Tandoori Restaurant @ Syed Alwi Road",
+        "location": "Syed Alwi",
+        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011928_list_3152c889-b7d7-49cc-a99d-cf6f7b675286.jpeg",
+        "rating": "0.0"
+    }
+]
