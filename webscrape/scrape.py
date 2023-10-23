@@ -12,7 +12,6 @@ option.add_argument('window-size=800x841')
 driver = webdriver.Edge(options=option)
 
 url = 'https://eatigo.com/sg/singapore/en/view-all-a-z'
-urls = 'https://eatigo.com/sg/singapore/en/r/ai-cafe-horne-road-5011786'
 
 
 # Edit variable here
@@ -22,7 +21,7 @@ nameList = []
 locationList = []
 imageList = []
 ratingList = [] 
-numOfRestaurant = 100  # set number of restaurant to scrape
+numOfRestaurant = 10  # set number of restaurant to scrape
 
 class Restaurant():
 
@@ -33,7 +32,7 @@ class Restaurant():
     def startUrl(self):
         self.driver.get(self.url)
 
-    def stopUrl(self):
+    def stopDriver(self):
         self.driver.close()
 
 
@@ -129,7 +128,7 @@ class Restaurant():
 restaurant = Restaurant(driver, url)
 restaurant.nameLocationRating(url)
 restaurant.generateJSON(nameList, locationList, imageList, ratingList)
-restaurant.stopUrl()
+restaurant.stopDriver()
 
 
 
