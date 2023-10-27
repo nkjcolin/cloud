@@ -3,6 +3,7 @@ import pymysql
 import boto3
 
 def bring_data_over_mysql():
+    #remember to change to details of aws rds
     connection = pymysql.connect(
         host='aws-cloud-db.c51u88x7edpw.us-east-1.rds.amazonaws.com',
         user='admin',
