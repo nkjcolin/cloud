@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC 
 import json
+import json_parser
 
 # Global Config
 option = Options()
@@ -129,6 +130,7 @@ restaurant = Restaurant(driver, url)
 restaurant.nameLocationRating(url)
 restaurant.generateJSON(nameList, locationList, imageList, ratingList)
 restaurant.stopDriver()
+json_parser.bring_data_over_mysql()
 
 
 
