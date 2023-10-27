@@ -87,4 +87,6 @@ aws eks update-kubeconfig --region us-east-1 --name eks-cluster_name
 sudo amazon-linux-extras install epel -y
 sudo yum install -y stress
 sudo stress --cpu 8 --timeout 600
-
+sudo nohup stress --cpu 2 --timeout 300 &
+sudo pkill stress
+top 
