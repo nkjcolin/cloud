@@ -83,11 +83,12 @@ public_ip_adress:5000
 ```bash
 aws eks update-kubeconfig --region us-east-1 --name eks-cluster_name
 ```
-
+```bash
 sudo yum update
 sudo amazon-linux-extras install epel -y
 sudo yum install -y stress
 sudo stress --cpu 8 --timeout 600
 sudo nohup stress --cpu 2 --timeout 600 &
 sudo pkill stress
-top 
+top
+```
