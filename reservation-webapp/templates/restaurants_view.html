@@ -21,7 +21,20 @@
 
     <button type="submit" class="btn btn-secondary">Apply</button>
 </form>
+<div class="filter">
+    <!-- Dropdown menu for sorting options -->
+    <form method="GET" action="{{ url_for('restaurants_view') }}">
+        <label for="rating_order">Sort by Rating:</label>
+        <select id="rating_order" name="rating_order">
+            <option value="default" {% if rating_order == 'default' %}selected{% endif %}>Default</option>
+            <option value="high_to_low" {% if rating_order == 'high_to_low' %}selected{% endif %}>High to Low</option>
+            <option value="low_to_high" {% if rating_order == 'low_to_high' %}selected{% endif %}>Low to High</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Apply</button>
+    </form>
+</div>
 
+<div class="card-container">
     {% for restaurant in restaurant_data %}
     <div class="card" style="width: 18rem;">
         <img src={{ restaurant.image }} class="card-img-top">
