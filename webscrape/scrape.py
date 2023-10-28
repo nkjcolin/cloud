@@ -24,8 +24,8 @@ ratingList = []
 numOfRatingList = []
 descriptionList = []
 reviewList = [] 
-startRange = 200
-numOfRestaurant = 250  # set number of restaurant to scrape
+startRange = 1
+numOfRestaurant = 10  # set number of restaurant to scrape
 
 class Restaurant():
 
@@ -164,8 +164,11 @@ class Restaurant():
         block = self.driver.find_element(By.XPATH, '/html/body/div[1]/main/div[1]/section/div[4]/div[1]/div[3]')
         block.click()
         WebDriverWait(self.driver, 3).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/main/div[1]/section/div[4]/div[4]/div[1]/div[2]/div[1]/div[3]')))
-        num = self.driver.find_element(By.XPATH, '/html/body/div[1]/main/div[1]/section/div[4]/div[4]/div[1]/div[2]/div[1]/div[3]').text
-        numOfRatingList.append(num)
+        num1 = self.driver.find_element(By.XPATH, '/html/body/div[1]/main/div[1]/section/div[4]/div[4]/div[1]/div[2]/div[1]/div[3]').text
+        num2 = self.driver.find_element(By.XPATH, '/html/body/div[1]/main/div[1]/section/div[4]/div[4]/div[1]/div[2]/div[2]/div[3]').text
+        num3 = self.driver.find_element(By.XPATH, '/html/body/div[1]/main/div[1]/section/div[4]/div[4]/div[1]/div[2]/div[3]/div[3]').text
+        num = int(num1) + int(num2) + int(num3)
+        numOfRatingList.append(str(num))
 
         WebDriverWait(self.driver, 3).until(EC.presence_of_element_located((By.CLASS_NAME, 'restaurant-content--tabs-feedback-comment--item')))
         reviews = self.driver.find_elements(By.CLASS_NAME, 'restaurant-content--tabs-feedback-comment--text')
