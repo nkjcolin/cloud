@@ -1,33 +1,5 @@
 [
        {
-              "name": "1864, Sofitel Singapore City Centre",
-              "location": "Tanjong Pagar",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011948_list_5be4ca49-c1da-47da-8f9a-c80091913162.jpeg",
-              "rating": "4.0",
-              "numOfRating": "0",
-              "description": "1864 Lobby Bar (homage to the foundation year of Tanjong Pagar's docking industry) aims to provide the perfect vibe for relaxation. Enjoy a signature afternoon high tea and handcrafted gourmet bites and tapas throughout the day.",
-              "review": [
-                     "Staff changed my date to 16sep 2023 knowing I booked wrongly Thank You for your kind understanding :)",
-                     "Nice caffe , full House on Saturday afternoon",
-                     "Food Nice 👍"
-              ]
-       },
-       {
-              "name": "98 Bistro @ Kampong Bahru Rd",
-              "location": "Outram",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012152_list_e3a9d346-9229-4f68-8b7a-32890dfd8af7.jpeg",
-              "rating": "0.0",
-              "numOfRating": "0",
-              "description": "98 Bistro is a Bistro located at 85 Kampong Bahru Road, Singapore 169380. 98 Bistro is a popular spot in the Tanjong Pagar area. Whether you're looking for a light bite or the full foodie experience, explore the dishes at 98 Bistro and experience authentic Contemporary food in Singapore.",
-              "review": [
-                     "Love the food quality at this place and have been visiting it for more than 8 years",
-                     "Good food good service",
-                     "Breads can be cheaper. Rasmalai (dessert) needs massive improvement. Overall, tasty with decent portions.",
-                     "Fantastic service !! Great Food !!",
-                     "Excellent service and food is always very good"
-              ]
-       },
-       {
               "name": "Ai Cafe @ Horne Road",
               "location": "Bendemeer",
               "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011786_list_7768d315-b055-446a-a6fa-3b1a7d0579ae.jpeg",
@@ -170,17 +142,6 @@
               ]
        },
        {
-              "name": "Bar Intermezzo @ Orchard Hotel",
-              "location": "Orchard",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011070_list_de1ea1a9-7d40-4cb9-be45-2088e707e8c7.jpeg",
-              "rating": "0.0",
-              "numOfRating": "0",
-              "description": "",
-              "review": [
-                     "Amazing house beer!"
-              ]
-       },
-       {
               "name": "Bar Soccer @ Kallang Wave Mall",
               "location": "Kallang",
               "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011540_list_1754ea2c-37f2-464b-8d52-e9ead9768002.jpeg",
@@ -207,21 +168,6 @@
                      "Great meal. Good environment. Waitress very attentive and friendly.",
                      "Great ambience sitting by the river, friendly service, and good pork ribs!",
                      "Nice food"
-              ]
-       },
-       {
-              "name": "BBQ Box @ East Coast",
-              "location": "East Coast",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5010895_list_ae382b21-3245-4600-adbf-6535a988ae15.jpeg",
-              "rating": "0",
-              "numOfRating": "0",
-              "description": "Beats Bites & Cocktails is a contemporary lounge concept which places equal emphasis on the culinary, beverage and music elements in order to provide an experience where the sum is greater then its parts.",
-              "review": [
-                     "The seafood is fresh and there is a wide variety to choose from.",
-                     "with the 50% discount it worth the deal",
-                     "Service 10/10 Food 10/10 Worth it",
-                     "Kopitiam setting. Food items very fresh. Got 50% discounts for 2pax and 20% discount for 3 pax on Sat night dinner buffet. Location a bit inconvenient, opposite Ikeas Tampines/Giant Hypermart Tampines. Staff very friendly. Table not big enough for the mookata setting. Buffet a lot variaty but no drinks. Need to get from drink stall.",
-                     "The place is spacious and the service person are very polite and helpful to our request. Price is also very reasonable during this promotion period."
               ]
        },
        {
@@ -326,19 +272,6 @@
               ]
        },
        {
-              "name": "Buey Tahan See-Food x THAI BBQ @ Tampines",
-              "location": "Tampines",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011947_list_2d475d36-8115-43cd-8527-f6d00be7605a.jpeg",
-              "rating": "0.0",
-              "numOfRating": "0",
-              "description": "Clover Plant-Based Kitchen and Bar is a trendy vegan restaurant situated at 18 Pahang Street in Singapore. This vibrant eatery specializes in offering a diverse and delicious menu entirely free of animal products. With a commitment to sustainability and ethical dining, Clover provides a delightful dining experience for vegans and plant-based enthusiasts, showcasing innovative and flavorful dishes that cater to a variety of dietary preferences. Whether you're a dedicated vegan or simply looking to explore plant-based cuisine, Clover Plant-Based Kitchen and Bar is a must-visit destination for wholesome, environmentally conscious food in the heart of Singapore.",
-              "review": [
-                     "Food is delicious with big portion.",
-                     "Food is tasty but is expensive. Would not have gone there if without the 50% discount.",
-                     "Cosy little cafe in HDB area, friendly service but slow. We ordered 2 pasta, food were tasty but portion a bit small, n were not hot when serving. Hope they can improve in these areas."
-              ]
-       },
-       {
               "name": "Byblos Grill @ Bussorah Street",
               "location": "Bugis",
               "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2226_list_2f6662d9-4e19-4cc1-b773-ef0e4913726d.jpeg",
@@ -366,19 +299,6 @@
                      "Ordered Clam Chowder, Lamb Rack Half Slab, Aust Wagyu Ribeye, Iberico Spare Ribs, Sambal Stingray, Happy Hour 10 Glasses, Truffles Fries, Nachos with Cheese and a bottle of wine. Portion was very huge. Overall taste is good except a bit salty for the Sambal Stingray. They have a Karaoke upstairs and you can sing to your heart content till 12 midnight. Waiters and waitresses are very friendly.",
                      "Good food",
                      "iced americano and carbonara were tasty!"
-              ]
-       },
-       {
-              "name": "Café de Paris @ 313 Somerset",
-              "location": "Somerset",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5004716_list_a712eae0-957a-4eeb-ab64-76c52cfecc05.jpeg",
-              "rating": "0.0",
-              "numOfRating": "0",
-              "description": "",
-              "review": [
-                     "Menu selection is very limited but the friendly service from the staff and quiet ambience made the overall experience a comfortable one.",
-                     "Great place to dine. Food is good although ala-carte menu selection is not a lot. Staffs are friendly. Good eatigo discount.",
-                     "Staffs are friendly but choice of food is limited"
               ]
        },
        {
@@ -420,19 +340,6 @@
                      "Love the sides, really decent quality Korean food, well worth the price!",
                      "Kimchi fried rice, japchae and chicken were all delicious. Kimchi pancake probably too sour for most people. Pleasant dining experience.",
                      "Food is good but on the pricey side without Eatigo"
-              ]
-       },
-       {
-              "name": "Cantina @ Arab Street",
-              "location": "Bugis",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011807_list_eba68e95-a46b-4596-bb37-4bf623349fe6.jpeg",
-              "rating": "0.0",
-              "numOfRating": "0",
-              "description": "Dum Pukht Grill + Curry\n\n*Eatigo discount is not applicable for in-house promotion, special menu, drinks and alcohol ",
-              "review": [
-                     "The Indian food served was marvelous!",
-                     "Food is delicious with nice view. There are many food choices. Value for money. Highly recommended.",
-                     "Service staff are nice and friendly. Food is reasonable and good. But the complimentary cracker they gave prior to the food arrival is not too fresh and they soften within minutes. Perhaps the frying skills and the storage of the crackers play a very important part to this."
               ]
        },
        {
@@ -607,17 +514,6 @@
               ]
        },
        {
-              "name": "Harry's @ Novena",
-              "location": "Novena",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_74f69d5a5cc6fb15876cc673249a780f_20180504171130_2536.jpg",
-              "rating": "4.0",
-              "numOfRating": "0",
-              "description": "Enjoy the warm ambiance, cityscape vistas, and attentive service as you unwind and create unforgettable memories high above the bustling streets. Whether celebrating success or simply seeking a relaxing evening with friends, Heaven at Seah St promises an elevated experience for all.",
-              "review": [
-                     "Value for money"
-              ]
-       },
-       {
               "name": "Harry's @ Plaza Singapura",
               "location": "Dhoby Ghaut",
               "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5010691_list_300e3828-14ce-49d6-b580-b1c8ba054b34.jpeg",
@@ -633,18 +529,6 @@
               ]
        },
        {
-              "name": "Harry's @ Resorts World Sentosa",
-              "location": "Sentosa",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5007030_list_88a7dd46-efbe-4bd3-b40a-ed9e5c842f2c.jpg",
-              "rating": "4.0",
-              "numOfRating": "0",
-              "description": "We have an extensive menu to cater to everyone. Be it you are a seafood lover or meat lover, you will be delighted and satisfied!\n\nJoin us here at House of Mookata!",
-              "review": [
-                     "Not the great food but not too bad either",
-                     "Environment was ok ok but the food and service was superb"
-              ]
-       },
-       {
               "name": "Harry's @ South Beach",
               "location": "Bugis",
               "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_5ade61a3eba72ef84f4da77fa9e64e64_20180504170752_5840.jpg",
@@ -657,21 +541,6 @@
                      "Friendly staff, foods not very fantastic on weekday as compared to weekend. They are either over seasoned but some are under.",
                      "All okay. As usual, the food was excellent!",
                      "Wide selection of lobster dishes"
-              ]
-       },
-       {
-              "name": "Harry's @ Tai Seng",
-              "location": "Tai Seng",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2961_list_0087f423-7948-4706-a794-af5c71395782.jpg",
-              "rating": "4.0",
-              "numOfRating": "0",
-              "description": "Coming from Beijing China, the hottest Lobster/Crawfish restaurant, HUDA, now opens in Singapore. Our vision is to bring the best experience including taste and service for people in Singapore. The recipes, ingredients, and even chefs are from China.",
-              "review": [
-                     "The food is very delicious , the service is good and the price is reasonable. The ambience is conducive for conversations. It is an excellent place for quality food and quality conversation.",
-                     "Excellent. Carbonara ↗️🆙👍",
-                     "Jag Wine is an exceptional restaurant, the food is delicious, the service is exceptional, and the price is reasonable. It has been a delightful dining experience.",
-                     "Food is delicious and service is good. The main course is at 50% as we made reservations through eatigo, so very worth it. My daughter ate the duck confit and mentioned that the meat is a little bit hard. I liked the bread with cheese and also the lamb shanks.",
-                     "Great food good service"
               ]
        },
        {
@@ -700,17 +569,6 @@
                      "Environment is good but food wise a bit pricey",
                      "2nd visit here， food tasty as always. Will keep visiting untill promo ends.",
                      "Friendly n tasty"
-              ]
-       },
-       {
-              "name": "Hofuna Japanese @ Tai Seng",
-              "location": "Tai Seng",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011967_list_9c12405f-a32d-4dc8-af6d-277858ee6fe9.jpeg",
-              "rating": "4.0",
-              "numOfRating": "0",
-              "description": "At Indline we offer Indian meals consisting of mean curries and phenomenal naans. Come and experience the comfortable and laid back atmosphere of a contemporary Indian cookery with a dynamic service option.",
-              "review": [
-                     "The Hokkien Mee was so delicious that we ordered second helpings. The staff were very friendly and polite."
               ]
        },
        {
@@ -862,21 +720,6 @@
                      "Great service and yummy food!",
                      "Food is nice. Service is good. Price is alright",
                      "Food was very good. Good deal with Eatigo"
-              ]
-       },
-       {
-              "name": "Lazy Lizard @ NEWest",
-              "location": "",
-              "imageLink": "https://cdn.eatigo.com/filters:format(jpeg)/restaurant-cover-image/5003068_list_5b526526-6862-4277-9df2-d66cc55d068b.jpg",
-              "rating": "4.0",
-              "numOfRating": "0",
-              "description": "\"This chic bar is a cozy setting for meeting friends, relaxing with a drink and savoring the ambiance. Inspired by colonial-era pavilions, LeBar’s airy décor and plush furnishings invite you to linger over coffee and shared plates. At night, live music and bespoke cocktails transform it into a glamorous gathering place.\n\nRegardless of where you sit, the view enchants and delights. The panorama encompasses the lobby with its radiant blown-glass chandelier. Outside, the placid lawn pond, an indoor spa pond where tiny fish nibble on your feet, the aquamarine pool and South China Sea beyond.\"\n\nSavour a refreshing tropical high tea and bubbly in the heart of the resort with tranquil views of the lush outdoor palatial spaces and wafting sea breeze. Whilst the gentle breeze wafts in, sink yourself into the plush cushions ready for an afternoon of tête-à-tête amidst a delectable selection of patisserie and savouries, reminiscent of a tropical Balinese escape.\n\n$88++ for 2 persons with free-flow Nespresso Coffee OR TWG Tea (U.P. $45++ per person)\n\nTop Up Options\nSparkling Tea: $28++ for two glasses | $60++ per bottle\nChampagne: $36++ for two glasses | $88++ per bottle",
-              "review": [
-                     "Love the fresh and sustainable seafood, vegetables and herbs. Salad selection was delicious likewise with avocado and red pepper dips. Local Asian spread was also fabulous. Thank you!",
-                     "staff was excellent too",
-                     "Nice food, superb service!",
-                     "Really good variety of food 😍😍😍",
-                     "I think this restaurant requires a little more hygiene which is the reason why I rate four stars instead of five. Some serving plates n bowls were found to have stains but service was perfect"
               ]
        },
        {
@@ -1067,21 +910,6 @@
               ]
        },
        {
-              "name": "Max's Restaurant @ Far East Plaza",
-              "location": "Orchard",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011421_list_74585da9-aff8-4f7e-a9a3-d03235747483.jpeg",
-              "rating": "4.0",
-              "numOfRating": "0",
-              "description": "Enjoy a Thai-licious meal with us! Come to Nakara Thai Cuisine!",
-              "review": [
-                     "We ordered a platter with seafood. The prawn and sotong were fresh. Meat and fish were marinated well. Even with the eatigo discount, we can order the buffet. Also kudos to the staffs, patient and helpful.",
-                     "considerate stall owner who attends to serve nicely with care. Been here a few times and the best value every mookata fan cannot afford not to experience",
-                     "Good food. Great price.",
-                     "Boss was very friendly and generous with food. Even gave us dessert and extra portion of meat 👍🏻",
-                     "Food is nice and fresh, recommended"
-              ]
-       },
-       {
               "name": "Miam Miam French Japanese Cafe Kitchen @ Westgate",
               "location": "Jurong East",
               "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011951_list_5703dd28-49e8-4c5f-b41e-1c14e365fe2e.jpeg",
@@ -1150,18 +978,6 @@
               ]
        },
        {
-              "name": "一品居中餐厅 Yi Pin Ju Chinese Restaurant @ Tanjong Pagar",
-              "location": "Tanjong Pagar",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012110_list_dc8e6b6e-2edd-428e-85df-9a27df8e4b97.jpeg",
-              "rating": "4.0",
-              "numOfRating": "0",
-              "description": "Offering both authentic French Cuisine and Local Chinese Delights. Connoisseurs of gourmet experiences will enjoy a menu of traditional French classics and timeless Chinese dishes all prepared by two distinct culinary brigade at four live cooking stations. Racines offers a plethora of epicurean delights that are crafted and catered to various dietary needs including health-conscious Delight dishes. Embark with us on a culinary journey of flavours spanning the breadth and depth of Singapore and France, for an unforgettable epicurean experience.",
-              "review": [
-                     "nice food and friendly staff!",
-                     "Great food and service! Thanks for making me feel at home!"
-              ]
-       },
-       {
               "name": "Racines, Sofitel Singapore City Center",
               "location": "Tanjong Pagar",
               "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011187_list_6520ed40-dfbe-4091-8e6b-7fa07b9a108c.jpeg",
@@ -1185,31 +1001,6 @@
                      "Food was Amazing 👏 Thank you",
                      "I found the crab dish not so fresh. The rest of the foods are good. Hope you can improve on the food mentioned. Thanks",
                      "50% off promotion is a good deal, but the choice of drinks are limited, can have more non- spicy food choice, desserts are almost run out for late lunch dinner."
-              ]
-       },
-       {
-              "name": "Rangooli Restaurant @ Clementi",
-              "location": "Clementi",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011586_list_f2c53faa-3a16-4663-b6a6-b977a42c7adc.jpeg",
-              "rating": "4.0",
-              "numOfRating": "0",
-              "description": "If you love avocado, this is the perfect place for you. As its name suggests, Renew Deli | Avocados & Acai serves all things avocado. Located within SAFRA Tampines, the bistro offers items like avocado sandwiches, avocado toast and granola acai bowls, which of course comes with avocado. It’s a comfortable laidback place to come by with your friends, so feel free to bring them along to get your fix.",
-              "review": [
-                     "Great food, good service. Will definitely visit them again.",
-                     "All of the staffs are so friendly and helpful to decidethe menu. I enjoyed talking and delicious food. Thank you for your kind services.",
-                     "We are simply wowed by the food and the quality of it.",
-                     "The buffet deal is a steal at 50% off. Portions are small which is perfect for tasting."
-              ]
-       },
-       {
-              "name": "Red Chilli-The Bollywood Spices @ Changi Road",
-              "location": "Kembangan",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5010932_list_f030f966-539b-405f-a8a8-ee62637484af.jpeg",
-              "rating": "4.0",
-              "numOfRating": "0",
-              "description": "Robey Mookata @ 7 Keppel Road #01-12 is a cosy dining place for friends and family gatherings.  We provide both indoor air-conditioned & outdoor dining options and can host large group gatherings. Apart from Mookata, we also offer a wide range of soft drinks and freshly brewed drinks such as the Authentic Thai Red Milk Tea, Thai Green Milk Tea and Lemongrass.",
-              "review": [
-                     "Cosy and friendly atmosphere"
               ]
        },
        {
@@ -1314,21 +1105,6 @@
                      "Good food, pleasant service and nice ambience. The Samgye-tang, and Gyeran-jjim is splendid!",
                      "Reasonably priced for the service and meat n good charcoal used. Pleasant experience. Mgr Freddy is nice and helpful too. Overall good service",
                      "Value for money with the 50% discount applied and love the free flow of side dishes"
-              ]
-       },
-       {
-              "name": "Rumpoles Bar @ JEN Singapore Tanglin by Shangri-La",
-              "location": "Tanglin",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012053_list_55b2f3e9-4de3-40c6-b92d-0d3cc41a4b61.jpeg",
-              "rating": "4.0",
-              "numOfRating": "0",
-              "description": "At SanSara, we invite you to embark on a gastronomic voyage, a journey through time and tradition, where the flavours flow harmoniously, and every dish tells a story. As you dine with us, you become a part of this eternal flow, experiencing the essence of India's culinary heritage and the ever-evolving tapestry of flavours that it offers. \n\nSanSara is more than just a restaurant; it's a celebration of the endless flow of life, culture, and cuisine.\n\nCome experience the authentic Northern Indian cuisine by the Singapore River today!",
-              "review": [
-                     "Food is nice although overly priced. If not given 50% will not ho there. With the amount can go for better buffet meal.",
-                     "Service is great. Patient and willing to explain how to order and match the bbq for good food. Food is great too. Thanks.",
-                     "Repeat visit. But seems serving portion for 50% is a bit smaller?",
-                     "Nice food with the 50% discount",
-                     "Food is still great but service can improve."
               ]
        },
        {
@@ -1440,36 +1216,6 @@
                      "Service and food were good, except that lamb shank was not available and my friend was actually there to have it.",
                      "Good food great music",
                      "Excellent environment, music performance, food and the staff service."
-              ]
-       },
-       {
-              "name": "Seorae Korean Charcoal BBQ @ Compass One",
-              "location": "Sengkang",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011463_list_f498200b-0787-4524-803f-a9cdb1c7a422.jpeg",
-              "rating": "4.0",
-              "numOfRating": "0",
-              "description": "Bringing people together through games, music, and so-good vibes.\n\nSo High is a social bar that offers unique experiences through its tech-integrated approach.\n\nOur proprietary app allows patrons to make live reservations and create customised avatars to earn gems that can be exchanged for various goodies in our e-shop. The app also allows patrons to interact with each other and participate in mini-games.\n\nSo High has the largest collection of party board games in Singapore, carefully curated to ensure a great experience with every visit.",
-              "review": [
-                     "GOOD RECOMMENDATION AND PRICE !",
-                     "The food is ok not bad but alot of restrictions coz I booked for 2 pax, we can't order 3 set (but we are big eater) and your position is so small.",
-                     "Ordered Tenderloin n Ribeye but Ribeye was very tough. Overall enjoyed the meal but expect zero service",
-                     "Nice steak and friendly staff",
-                     "Food is good - service so-so."
-              ]
-       },
-       {
-              "name": "Seorae Korean Charcoal BBQ @ JEM",
-              "location": "Jurong East",
-              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_SeoraeKoreanCharocoalBBQJEM_20180207112413_9920.jpg",
-              "rating": "4.0",
-              "numOfRating": "0",
-              "description": "Sticking to a keto diet means having to make some sacrifices. But thanks to Sofi Café, there’s no need to give up your favourite Italian food. You’ll find dishes like mushroom penne, roast pork belly with mash & salad, and burrata pizza featuring the perfect combination of flavourful food, yet still strictly keeping to keto diet requirements. Located along Craig Road, the café is just a short walk from Tanjong Pagar MRT station.",
-              "review": [
-                     "Nice food and good service. Will come back again for more",
-                     "Food r fresh worth it",
-                     "Nice food and value for money with eatigo discount. Will visit again.",
-                     "authentic thai food , with great service ! will be back",
-                     "Nice food n good deal after using eatigo discount"
               ]
        },
        {
