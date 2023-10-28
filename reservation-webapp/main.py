@@ -67,7 +67,9 @@ def search_restaurants():
             'meal_type': row['meal_type'],
             'timings': row['timings'],
             'description': row['description'],
-            'image': row['image']
+            'image': row['image'],
+            'rating': row['rating'],
+            'numberofrating': row['numberofrating']
             # Add more fields as needed
         }
         restaurant_data.append(restaurant_info)
@@ -100,7 +102,9 @@ def restaurants_view():
             'meal_type': row['meal_type'],
             'timings': row['timings'],
             'description': row['description'],
-            'image': row['image']
+            'image': row['image'],
+            'rating': row['rating'],
+            'numberofrating': row['numberofrating']
             # Add more fields as needed
         }
         restaurant_data.append(restaurant_info)

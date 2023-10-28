@@ -13,8 +13,10 @@
         <img src={{ restaurant.image }} class="card-img-top">
         <div class="card-body">
             <h5 class="card-title">{{ restaurant.name }}</h5>
-            <p class="card-text">{{ restaurant.dietary_needs }}</p>
+            <p class="card-text">Dietary: {{ restaurant.dietary_needs }}</p>
             <p class="card-text">Meal Type: {{ restaurant.meal_type }}</p>
+            <p class="card-text">Rating: {{ restaurant.rating }}/5</p>
+            <p class="card-text">Rated By: {{ restaurant.numberofrating }} people</p>
             <p class="card-text">Timeslot: {{ restaurant.timings }}</p>
             <a href="{{ url_for('restaurant_profile', id=restaurant.id) }}" class="btn btn-primary">View</a>
         </div>
