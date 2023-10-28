@@ -80,6 +80,9 @@ def search_restaurants():
 
 @app.route("/allrestaurants", methods=['GET'])
 def restaurants_view():
+    # Get the rating_order query parameter from the URL
+    rating_order = request.args.get('rating_order')
+    
     # Create a cursor for executing SQL queries
     cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
 
@@ -88,6 +91,12 @@ def restaurants_view():
 
     # Build and execute the SQL query
     query = "SELECT * FROM restaurants"
+    
+    if rating_order == 'high_to_low':
+        query += " ORDER BY rating DESC"
+    elif rating_order == 'low_to_high':
+        query += " ORDER BY rating ASC"
+    
     cursor.execute(query)
 
     # Fetch all matching rows
