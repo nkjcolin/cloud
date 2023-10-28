@@ -4,6 +4,12 @@
     justify-content: center;
   }
   
-  .card {
-    margin: 20px; /* Add margin to individual cards */
-  }
+.card {
+  margin: 20px; /* Add margin to individual cards */
+}
+
+.scrollable-container {
+  width: 300px; /* Optional: Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  overflow: auto; /* Add scrollbars when content overflows */
+}

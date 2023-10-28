@@ -33,8 +33,24 @@ def search_restaurants():
     cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
 
     # Build and execute the SQL query
-    query = "SELECT * FROM restaurants WHERE name LIKE %s AND dietary_needs = %s AND meal_type = %s"
-    cursor.execute(query, (f'%{search_query}%', dietary_needs, meal_type))
+    if dietary_needs == "" and meal_type != "":
+        query = "SELECT * FROM restaurants WHERE name LIKE %s AND meal_type = %s"
+        cursor.execute(query, (f'%{search_query}%', meal_type))
+
+    elif search_query != "" and meal_type != "" and meal_type != "":
+        query = "SELECT * FROM restaurants WHERE name LIKE %s"
+        cursor.execute(query, (f'%{search_query}%'))
+
+    elif dietary_needs != "" and meal_type == "":
+        query = "SELECT * FROM restaurants WHERE name LIKE %s AND dietary_needs = %s"
+        cursor.execute(query, (f'%{search_query}%', dietary_needs))
+
+    elif dietary_needs == "" and meal_type == "" and search_query == "":
+        query = "SELECT * FROM restaurants"
+        cursor.execute(query)
+    else:
+        query = "SELECT * FROM restaurants WHERE name LIKE %s AND dietary_needs = %s AND meal_type = %s"
+        cursor.execute(query, (f'%{search_query}%', dietary_needs, meal_type))
 
     # Fetch all matching rows
     results = cursor.fetchall()
@@ -51,6 +67,7 @@ def search_restaurants():
             'meal_type': row['meal_type'],
             'timings': row['timings'],
             'description': row['description'],
+            'image': row['image']
             # Add more fields as needed
         }
         restaurant_data.append(restaurant_info)
@@ -83,6 +100,7 @@ def restaurants_view():
             'meal_type': row['meal_type'],
             'timings': row['timings'],
             'description': row['description'],
+            'image': row['image']
             # Add more fields as needed
         }
         restaurant_data.append(restaurant_info)
