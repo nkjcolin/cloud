@@ -13,3 +13,8 @@
   height: 200px; /* Set a fixed height */
   overflow: auto; /* Add scrollbars when content overflows */
 }
+
+.filter {
+  padding-left: 150px;
+  padding-top: 30px;
+}
