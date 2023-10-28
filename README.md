@@ -79,4 +79,16 @@ nohup kubectl port-forward svc/my-flask-app-service 5000:80 --address 0.0.0.0 &
 public_ip_adress:5000
 ```
 
-
+### (EKS) Specify configuration details to interact with EKS cluster
+```bash
+aws eks update-kubeconfig --region us-east-1 --name eks-cluster_name
+```
+```bash
+sudo yum update
+sudo amazon-linux-extras install epel -y
+sudo yum install -y stress
+sudo stress --cpu 8 --timeout 600
+sudo nohup stress --cpu 2 --timeout 600 &
+sudo pkill stress
+top
+```
