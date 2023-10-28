@@ -1,440 +1,367 @@
 [
-    {
-        "name": "1864, Sofitel Singapore City Centre",
-        "location": "Tanjong Pagar",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011948_list_5be4ca49-c1da-47da-8f9a-c80091913162.jpeg",
-        "rating": "4.0"
-    },
-    {
-        "name": "98 Bistro @ Kampong Bahru Rd",
-        "location": "Outram",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012152_list_e3a9d346-9229-4f68-8b7a-32890dfd8af7.jpeg",
-        "rating": "4.0"
-    },
-    {
-        "name": "Ai Cafe @ Horne Road",
-        "location": "Bendemeer",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011786_list_7768d315-b055-446a-a6fa-3b1a7d0579ae.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Alter Ego @ Esplanade Mall",
-        "location": "City Hall",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5003823_list_d3dfc653-3c01-4096-ae85-cfc5bc4bb103.jpg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Anglo Indian Caf\u00e9 & Bar @ 1 Shenton Way",
-        "location": "Raffles Place",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_AngloIndianCafeampBar_20150915142744_5645.jpg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Anglo Indian Caf\u00e9 & Bar @ Chijmes",
-        "location": "City Hall",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_AngloIndianCafeampBarChijmes_20170731105833_8103.jpg",
-        "rating": "4.4"
-    },
-    {
-        "name": "Anglo Indian Caf\u00e9 & Bar @ Marina One",
-        "location": "Marina Bay",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_3c323f0e6fa9efd85e1cbd7e42fb9ab9_20180427183633_7830.jpg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Atrium Restaurant @ Holiday Inn Singapore Atrium",
-        "location": "River Valley",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/980_list_2ce935b1-d76c-42dd-a808-aa0ae07c35d9.png",
-        "rating": "3.7"
-    },
-    {
-        "name": "Ayasofya Turkish Restaurant @ Bussorah St",
-        "location": "Bugis",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5004111_list_f07e1033-e780-406a-8839-316aa577a163.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Azmi Tandoori Restaurant @ Syed Alwi Road",
-        "location": "Syed Alwi",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011928_list_3152c889-b7d7-49cc-a99d-cf6f7b675286.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "BAAN KANOM THAI @ ARC380",
-        "location": "Bugis",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011744_list_f61713a3-7848-49dc-b896-f277fd87d570.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Bahaus by CDC",
-        "location": "Bendemeer",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011957_list_869ac2d9-1683-43db-b1be-b782ba80fece.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Banjara Fine Dining Restaurant @ Changi Business Park",
-        "location": "Changi",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5009516_list_6f0c89d1-156e-4274-8ef6-aaf6ad036d81.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Bar Intermezzo @ Orchard Hotel",
-        "location": "Orchard",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011070_list_de1ea1a9-7d40-4cb9-be45-2088e707e8c7.jpeg",
-        "rating": "4.0"
-    },
-    {
-        "name": "Bar Soccer @ Kallang Wave Mall",
-        "location": "Kallang",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011540_list_1754ea2c-37f2-464b-8d52-e9ead9768002.jpeg",
-        "rating": "4.0"
-    },
-    {
-        "name": "Bar-beque @ Prinsep Street",
-        "location": "Dhoby Ghaut",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011685_list_3ae9dd2b-95c4-4f09-a9fd-e547f46e6c04.jpeg",
-        "rating": "4.0"
-    },
-    {
-        "name": "BBQ Box @ East Coast",
-        "location": "East Coast",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5010895_list_ae382b21-3245-4600-adbf-6535a988ae15.jpeg",
-        "rating": "4.8"
-    },
-    {
-        "name": "BBQ Under The Stars @ Gallop",
-        "location": "Sixth Avenue",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011748_list_1d801523-05e9-4c07-a8b5-275120caf3e6.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Beats Bites & Cocktails @ Bukit Pasoh Rd",
-        "location": "Rochor",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012177_list_0fe0ea1b-7fa3-42b3-ae3a-afa6e032596a.jpeg",
-        "rating": "4.0"
-    },
-    {
-        "name": "Bee Cheng Hiang Grillery @ Serangoon",
-        "location": "Serangoon",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5003001_list_216f414e-bc01-4e65-86c3-6ae6fac85bdc.jpg",
-        "rating": "4.6"
-    },
-    {
-        "name": "Blue Jasmine @ Holiday Inn Singapore Little India",
-        "location": "Farrer Park",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2806_list_a8e61888-ebb0-4f9d-b084-78cd2be4e41a.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Brew House Sports Bar @ Sembawang Road",
-        "location": "Sembawang",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011989_list_9c08cf47-ede1-44a1-af7a-0e73bb06f482.jpeg",
-        "rating": "4.5"
-    },
-    {
-        "name": "British Indian Curry Hut @ Holland Village",
-        "location": "Holland Village (Road)",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_BritishIndianCurryHut_20171012180421_6320.jpg",
-        "rating": "4.0"
-    },
-    {
-        "name": "Brooklyn Bar Sg @ Ann Siang Road",
-        "location": "Telok Ayer",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012054_list_d816d1db-7328-464d-abcc-5d90544cd2b2.jpeg",
-        "rating": "4.6"
-    },
-    {
-        "name": "Buey Tahan See-Food x THAI BBQ @ Tampines",
-        "location": "Tampines",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011947_list_2d475d36-8115-43cd-8527-f6d00be7605a.jpeg",
-        "rating": "4.8"
-    },
-    {
-        "name": "Byblos Grill @ Bussorah Street",
-        "location": "Bugis",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2226_list_2f6662d9-4e19-4cc1-b773-ef0e4913726d.jpeg",
-        "rating": "4.3"
-    },
-    {
-        "name": "Caf\u00e9 2000 @ M Hotel",
-        "location": "Tanjong Pagar",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/1527_list_27bc1144-18d8-4395-b010-d522ffd1a08d.jpeg",
-        "rating": "4.0"
-    },
-    {
-        "name": "Caf\u00e9 de Paris @ 313 Somerset",
-        "location": "Somerset",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5004716_list_a712eae0-957a-4eeb-ab64-76c52cfecc05.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "CALI @ Raffles Place",
-        "location": "Raffles Place",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5002197_list_1def11fc-878a-4111-8b8c-52f5c84b29e5.jpeg",
-        "rating": "4.3"
-    },
-    {
-        "name": "CALI @ Rochester",
-        "location": "Buona Vista",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_CaliRochester_20180410102551_7866.jpg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Canjob Taproom @ Tiong Bahru",
-        "location": "Tiong Bahru",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_CanjobTaproom_20180426190855_9517.jpg",
-        "rating": "4.6"
-    },
-    {
-        "name": "Cantina @ Arab Street",
-        "location": "Bugis",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011807_list_eba68e95-a46b-4596-bb37-4bf623349fe6.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Casablanca @ Arab Street",
-        "location": "Bugis",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011750_list_27eac512-d03d-45bc-8470-434c6e64eb0f.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Cha Cha Cha Mexican Restaurant @ Holland Village",
-        "location": "Holland Village (Road)",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5004751_list_9e267d38-689c-4d05-9037-0b18b30ea398.jpeg",
-        "rating": "4.0"
-    },
-    {
-        "name": "Charcoal Grill and Bar by Kurry Korner @ River Valley",
-        "location": "River Valley",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2561_list_37eee97c-7047-4838-a736-3162b31dc150.jpeg",
-        "rating": "4.0"
-    },
-    {
-        "name": "Charlie's Paradiso @ Boat Quay",
-        "location": "Boat Quay",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5002338_list_91a57b41-9f77-46ee-bf3f-3c76248cc28b.jpg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Charlie's Restaurant & Bar @ Boat Quay",
-        "location": "Boat Quay",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_CharliesTapasGrillBar_20160728154914_7329.jpg",
-        "rating": "4.4"
-    },
-    {
-        "name": "Chicken Hotpot @ Compass One",
-        "location": "Sengkang",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_ChickenHotpotCompassOne_20180629101425_0409.jpg",
-        "rating": "4.4"
-    },
-    {
-        "name": "Chicken Hotpot @ Novena Square 2",
-        "location": "Novena",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_ChickenHotpotNovenaSquare2_20180124102845_6392.jpg",
-        "rating": "4.2"
-    },
-    {
-        "name": "Chok Dee Mookata @ T-Space",
-        "location": "Tampines",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011936_list_289b7330-29a0-4d9a-87c9-e37f9a7e57c9.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Chongqing Premium Grilled Fish @ Kinex",
-        "location": "Paya Lebar",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5010732_list_f22092c0-21b7-4bf3-b44d-9874aca6c612.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Chunky Lobsters Signature @ Orchard Gateway",
-        "location": "Orchard",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012055_list_356ec441-41c8-4f66-9ce4-d38d05f52651.jpeg",
-        "rating": "4.4"
-    },
-    {
-        "name": "Clover Plant Based Kitchen & Bar",
-        "location": "",
-        "imageLink": "https://cdn.eatigo.com/filters:format(jpeg)/restaurant-cover-image/5012155_list_cc2b2062-1cea-4656-9640-202058ba99cb.jpeg",
-        "rating": "4.6"
-    },
-    {
-        "name": "Club A380 @ Jalan Besar",
-        "location": "Jalan Besar",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011824_list_04ee0bd2-71d8-4bd5-8954-c7181b778b2a.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Coca Restaurant @ Leisure Park Kallang",
-        "location": "Kallang",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2734_list_3ec7a9f8-1158-4707-914a-fc681cc3e02d.jpg",
-        "rating": "4.1"
-    },
-    {
-        "name": "Coca Restaurant @ Ngee Ann City",
-        "location": "Orchard",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2736_list_4936b0fe-c1d1-4e0e-9062-39e73ebb8758.jpg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Coca Restaurant @ Suntec City",
-        "location": "Marina Square",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5001236_list_d895f00d-49f8-469e-aa88-de122abe75fe.jpg",
-        "rating": "4.1"
-    },
-    {
-        "name": "Communal Coffee @ Prinsep Street",
-        "location": "Bugis",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011699_list_290a1653-51fc-475f-abca-455cee0f30fc.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Crab Cartel @ Bugis Junction",
-        "location": "Bugis",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011823_list_4f49241d-2aa7-4932-8ffa-46c2c75a1b12.jpeg",
-        "rating": "4.0"
-    },
-    {
-        "name": "Crab Wang Imperial Dining @ Hotel Boss",
-        "location": "Lavender",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012156_list_53480e77-f8e7-45c4-9214-7f98d36537ce.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Crossroads Bar @ Paradox Singapore Merchant Court",
-        "location": "Clarke Quay",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2376_list_5eabdd8b-b2b2-43cd-8449-44f29aec5da6.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Crossroads Buffet @ Singapore Marriott Tang Plaza Hotel",
-        "location": "Orchard",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/3255_list_eea726bb-3f53-40ca-b6e5-c02ead20a13a.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Crossroads Cafe @ Singapore Marriott Tang Plaza Hotel",
-        "location": "Orchard",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011679_list_e39ea0ec-2a1d-4945-8214-bc3985661a02.jpeg",
-        "rating": "4.1"
-    },
-    {
-        "name": "Daijoubu @ Singapore Management University",
-        "location": "Prinsep Street",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012182_list_59c91cbd-e984-4f7d-ab9b-2e925b76abe3.jpeg",
-        "rating": "4.7"
-    },
-    {
-        "name": "Darbar @ Tanjong Katong",
-        "location": "Tanjong Katong",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011404_list_574ccbbc-e52d-421d-8b0b-7842e08b5cc1.jpeg",
-        "rating": "4.7"
-    },
-    {
-        "name": "Darts Buddy @ Alexandra Road",
-        "location": "Alexandra Road",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5008382_list_036e462d-c5e0-43b1-99e7-4a4fca50f381.jpg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Darts Buddy Bistro Cafe & Pizzeria @ Beatty Road",
-        "location": "Lavender",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011354_list_1c55ef15-6a6a-4ea1-ad7d-2c2b41ae7f08.jpeg",
-        "rating": "0"
-    },
-    {
-        "name": "Dating Fish Music Theme Restaurant \u9c7c\u4f60\u6709\u7ea6 @ Mosque Street",
-        "location": "Chinatown",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5004590_list_5ccd8ef3-b665-4965-b5bc-905b8c9625e8.jpeg",
-        "rating": "4.6"
-    },
-    {
-        "name": "Der Biergarten @ Prinsep Street",
-        "location": "Dhoby Ghaut",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011700_list_cfc0d016-4d7f-46f8-92dc-a5f668a070da.jpeg",
-        "rating": "3.8"
-    },
-    {
-        "name": "Dertien SG @ Sembawang Road",
-        "location": "Sembawang",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011800_list_3226b787-3368-484c-bf32-13f692b79aa3.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Dim Sum Haus @ Marina Bay Financial Centre",
-        "location": "Marina Bay",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011731_list_9c3c155f-c06d-4d53-9b4e-ea46b0cdc579.jpeg",
-        "rating": "4.6"
-    },
-    {
-        "name": "Dindigul Thalappakatti Restaurant @ Kitchener Road",
-        "location": "Farrer Park",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5005584_list_931cda6f-b358-47b9-808c-3b0f12f7d10f.jpg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Drunk Skunk @ Boat Quay",
-        "location": "Circular Road",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012064_list_9f116555-ee3d-4af2-b35b-409906f94f81.jpeg",
-        "rating": "4.0"
-    },
-    {
-        "name": "Dum Pukht Grill + Curry @ Boat Quay",
-        "location": "Boat Quay",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5007349_list_52d44e53-d08b-40a1-a4f6-a935d0958f5e.jpg",
-        "rating": "4.0"
-    },
-    {
-        "name": "Dwaraka Restaurant @ Little India",
-        "location": "Farrer Park",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011438_list_f9a10b40-7d8a-4a52-a700-29765cdbe7ef.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "\u5927\u5bb6\u90fd\u597d Da Jia Dou Hao Fruit Restaurant @ East Coast Road",
-        "location": "East Coast",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012146_list_4cd41b65-007c-4e11-851f-9ddd84698fe7.jpeg",
-        "rating": "4.0"
-    },
-    {
-        "name": "Ellenborough Market Caf\u00e9 @ Paradox Singapore",
-        "location": "Clarke Quay",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2375_list_08726335-17bc-4fdc-989c-1cc1c844d341.jpeg",
-        "rating": "0"
-    },
-    {
-        "name": "Enchanted Cafe - The Fairytale Garden @ Farrer Park",
-        "location": "Farrer Park",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011858_list_068db3e7-c50a-4ad7-90bc-9ab7bc908f39.jpeg",
-        "rating": "4.7"
-    },
-    {
-        "name": "Enchanted Cafe - The Secret Garden @ Bukit Timah",
-        "location": "Bukit Timah",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011860_list_bebf1b21-fd88-4721-b8ef-c21e3e390e61.png",
-        "rating": "0.0"
-    },
-    {
-        "name": "Enchanted Cafe - The Treehouse @ Bedok",
-        "location": "Bedok",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011859_list_5d112253-00fe-4df3-9fab-1b77ec82999c.jpeg",
-        "rating": "0.0"
-    },
-    {
-        "name": "Escape @ One Farrer Hotel",
-        "location": "Farrer Park",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/2664_list_30d12c2a-71e7-4169-bf17-a8fdddba87f8.png",
-        "rating": "0.0"
-    },
-    {
-        "name": "Eventasty @ 100AM",
-        "location": "Tanjong Pagar",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5009048_list_bed6645e-3c54-4e55-92d2-8f9cceb3a519.jpeg",
-        "rating": "4.0"
-    },
-    {
-        "name": "Eventasty @ Funan Mall",
-        "location": "City Hall",
-        "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5005500_list_50420a03-57df-411f-bed2-3831524b2680.jpeg",
-        "rating": "4.0"
-    }
+       {
+              "name": "Princess Terrace Authentic Penang Food @ Copthorne Kings Hotel",
+              "location": "River Valley",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_186f59e36c9cb4a5337f4b92a3a7dc39_20180910145459_7660.jpg",
+              "rating": "0.0",
+              "numOfRating": "2",
+              "description": "At Yi Pin Ju Chinese Restaurant, we believe that great food brings people together. Come join us and experience the essence of Chinese cuisine in the heart of Tanjong Pagar. Our doors are open, and our kitchen is ready to delight your taste buds. \n\nDiscover Tradition. Taste Excellence. Create Memories.",
+              "review": [
+                     "Nice find in eatigo! Dishes were tasty, location at CBD area.",
+                     "The dishes are nice and price is reasonable. I ordered 5 dishes to try, all quite nice. The environment is cozy and full air-conditioning, good for gathering event. The restaurant boss is friendly and give discounts to try dumplings. Well worthy for money spending."
+              ]
+       },
+       {
+              "name": "一品居中餐厅 Yi Pin Ju Chinese Restaurant @ Tanjong Pagar",
+              "location": "Tanjong Pagar",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012110_list_dc8e6b6e-2edd-428e-85df-9a27df8e4b97.jpeg",
+              "rating": "4.0",
+              "numOfRating": "0",
+              "description": "Offering both authentic French Cuisine and Local Chinese Delights. Connoisseurs of gourmet experiences will enjoy a menu of traditional French classics and timeless Chinese dishes all prepared by two distinct culinary brigade at four live cooking stations. Racines offers a plethora of epicurean delights that are crafted and catered to various dietary needs including health-conscious Delight dishes. Embark with us on a culinary journey of flavours spanning the breadth and depth of Singapore and France, for an unforgettable epicurean experience.",
+              "review": [
+                     "nice food and friendly staff!",
+                     "Great food and service! Thanks for making me feel at home!"
+              ]
+       },
+       {
+              "name": "Racines, Sofitel Singapore City Center",
+              "location": "Tanjong Pagar",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011187_list_6520ed40-dfbe-4091-8e6b-7fa07b9a108c.jpeg",
+              "rating": "3.7",
+              "numOfRating": "5",
+              "description": "Rangooli Restaurant is a traditional North Indian restaurant, nestled in the heart of West coast since the 1990s.\nOn top of a serene and quiet ambience, we host authentic North Indian cuisine brought to you by our chefs who hail from Northern parts of India.\nOur chefs bring flavors and techniques from India that translates into the various vegetarian and non-vegetarian dishes that we provide.\nWe promise you, not only a pleasant dining experience, but also a tantalizing experience for your taste buds.\nPlease join us and allow us the opportunity to serve you with tasteful North Indian cuisine at Rangooli Restaurant.",
+              "review": [
+                     "Food quality very good, they need to focus more on ambience. A couple of plates were cracked and there were flies roaming around food"
+              ]
+       },
+       {
+              "name": "Raku Inu Bistro & Bar @ Flora Vista",
+              "location": "Ang Mo Kio",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011846_list_02aef787-5dbb-4028-8218-12154828ef5c.jpeg",
+              "rating": "4.0",
+              "numOfRating": "3",
+              "description": "Red Chilli-The Bollywood Spices is a halal-friendly restaurant serving freshly cooked Indian dishes that are bound to delight you.",
+              "review": [
+                     "Cosy ambience, tasty food...cajun fish, grilled prawns, satay, carrot cakes, naan, n red velvet cakes dessert. Staff were friendly and attentive, live band was great also.. My family had an enjoyable time there. Thank u...",
+                     "Prompt and friendly service. Indian and Malay food were tasty. Ambience was good.",
+                     "Food was Amazing 👏 Thank you",
+                     "I found the crab dish not so fresh. The rest of the foods are good. Hope you can improve on the food mentioned. Thanks",
+                     "50% off promotion is a good deal, but the choice of drinks are limited, can have more non- spicy food choice, desserts are almost run out for late lunch dinner."
+              ]
+       },
+       {
+              "name": "Rangooli Restaurant @ Clementi",
+              "location": "Clementi",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011586_list_f2c53faa-3a16-4663-b6a6-b977a42c7adc.jpeg",
+              "rating": "4.0",
+              "numOfRating": "0",
+              "description": "If you love avocado, this is the perfect place for you. As its name suggests, Renew Deli | Avocados & Acai serves all things avocado. Located within SAFRA Tampines, the bistro offers items like avocado sandwiches, avocado toast and granola acai bowls, which of course comes with avocado. It’s a comfortable laidback place to come by with your friends, so feel free to bring them along to get your fix.",
+              "review": [
+                     "Great food, good service. Will definitely visit them again.",
+                     "All of the staffs are so friendly and helpful to decidethe menu. I enjoyed talking and delicious food. Thank you for your kind services.",
+                     "We are simply wowed by the food and the quality of it.",
+                     "The buffet deal is a steal at 50% off. Portions are small which is perfect for tasting."
+              ]
+       },
+       {
+              "name": "Red Chilli-The Bollywood Spices @ Changi Road",
+              "location": "Kembangan",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5010932_list_f030f966-539b-405f-a8a8-ee62637484af.jpeg",
+              "rating": "4.0",
+              "numOfRating": "0",
+              "description": "Robey Mookata @ 7 Keppel Road #01-12 is a cosy dining place for friends and family gatherings.  We provide both indoor air-conditioned & outdoor dining options and can host large group gatherings. Apart from Mookata, we also offer a wide range of soft drinks and freshly brewed drinks such as the Authentic Thai Red Milk Tea, Thai Green Milk Tea and Lemongrass.",
+              "review": [
+                     "Cosy and friendly atmosphere"
+              ]
+       },
+       {
+              "name": "Rehash Gastrobar and Cafe @ Tyrwhitt Road",
+              "location": "Jalan Besar",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012136_list_bc4a5972-5375-4cd5-bd20-841c4890a7ed.jpeg",
+              "rating": "4.2",
+              "numOfRating": "12",
+              "description": "With well appointed interiors surrounded by scenic greenery, Orchid Country Club makes for an ideal venue for both intimate meals and large celebratory events. This atmosphere is also upheld within Royal Palm, where guests can look forward to a wide array of international cuisine. Appealing options include butter chicken, daging rendang and chilli crab. Bringing your Muslim friends? Worry not – Royal Palm is a 100% Halal establishment certified by MUIS.",
+              "review": [
+                     "Good food and service.",
+                     "Great food and Very good customer service!",
+                     "We've discovered Great Mediterranean cusisine. You can enjoy the view which is amazing. The best part is the great service with the staff doing an excellent job. We look forward to come back to enjoy the the platters and one of our favourites cheeze bureks. For those with a sweet tooth you should try kunefe",
+                     "Good food, great staff.",
+                     "Same as always… very good food and nice place to dine along the river"
+              ]
+       },
+       {
+              "name": "Renew Deli | Avocados & Acai @ SAFRA Tampines",
+              "location": "Tampines",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5006548_list_35d505fa-b3e0-47eb-9a21-1f45663ecaa7.jpg",
+              "rating": "3.8",
+              "numOfRating": "9",
+              "description": "Established in 2009, RUBATO @ Greenwood is one of Singapore's oldest and most prestigious Italian restaurants. Renowned as a cult favorite, it attracts celebrities, ministers, and influential business figures seeking an unforgettable dining experience.\n\nSetting itself apart as the latest opening fine food and gourmet restaurant in Singapore, RUBATO welcomes diners until 2 am for both dine-in and delivery. Craving pizza, pasta, burgers, or steaks at 2 am? Look no further.\n\nWith a menu that combines classic Italian dishes and contemporary culinary creations, RUBATO satisfies all palates. Immerse yourself in the flavors of Italy, even in the late hours, and experience the culinary magic of RUBATO @ Greenwood.",
+              "review": [
+                     "Big and fresh prawns",
+                     "Return customer - Laksa soup is very nice. Staff is friendly and attentive. Food is fresh and environment is very clean. Highly recommend",
+                     "Good food",
+                     "Laksa is good"
+              ]
+       },
+       {
+              "name": "Robey Seafood Mookata @ Tanjong Pagar",
+              "location": "Tanjong Pagar",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012059_list_1149bd3f-e4ed-49b4-8ca0-571156341094.jpeg",
+              "rating": "0",
+              "numOfRating": "2",
+              "description": "Dark wood, leather upholstery, and industrial design touch, Rumpoles Bar boasts the perfect vibes of a modern gentleman's club to dine and chill with your loved ones. \n\nEnjoy delectable food at this cosy space situated right within Hotel Jen Tanglin.",
+              "review": [
+                     "Boss is friendly and food is good. Best of both world",
+                     "glad there was eatigo discount 30% on the food",
+                     "Delicious food & good service. Clean & good ambience. Will go again!",
+                     "Yummy food, bright & nice environment, excellent service staff. Will be back again!",
+                     "Good food n service My friends enjoyed the meal very much Will be inviting others to dine here"
+              ]
+       },
+       {
+              "name": "ROUTE 65 Bar & Cafe @ Ubi Techpark",
+              "location": "Macpherson",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011915_list_9b5c18a9-546a-4869-8ab4-8371749745ce.png",
+              "rating": "4.7",
+              "numOfRating": "16",
+              "description": "For more than a decade, Sahara Bar and Restaurant has been delighting visitors with its relaxing ambience set against the charming backdrop of the Singapore River. Set up by former S. League Soccer Player, Esad Sejdic, Sahara not only serves up scrumptious Mediterranean and Persian cuisine, it also serves special Balkan favorites such as Cevapcici and Burek!nTrue to the passion of a sportsman, Sahara also regularly screens live soccer matches and other sports on its many TV screens! Drop by for a taste of delicious char-grilled kebabs and ice-cold beer while catching your favorite sports on TV!",
+              "review": [
+                     "Agree with reviews that food is very tasty, portions are small. Special mention to the excellent service standards at this outlet - very alert, attentive, efficient & friendly staff.",
+                     "Will dine again",
+                     "Have been to the restaurant few times, food is good. With Eatigo discount, very worth it.",
+                     "Yummy hokkien cuisines. Perfect for family gathering or celebration. Service crew is attentive and friendly!",
+                     "Great food and good service. Love the braised trotter, the corn fish and many more. With eatigo discount is really worth it. Thanks."
+              ]
+       },
+       {
+              "name": "Royal Palm @ Orchid Country Club",
+              "location": "Yishun",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5005282_list_076c17b3-69f5-4316-a9d3-d98cd6e86cbe.jpeg",
+              "rating": "4.3",
+              "numOfRating": "7",
+              "description": "Located on Kitchener Road, Laksa Steamboat offers a unique fusion of laksa and steamboat. With a cozy ambiance and signature laksa broth, it's a delightful culinary experience that combines interactive dining and rich flavors.",
+              "review": [
+                     "Portion are huge and delicious",
+                     "Taste of meat not too bad. Portion cld be more. Can hv more side dishes. Lettuce shld b bigger pieces to wrap meat. Hv to do online feedback for ice cream. Drinks & premium items not available for 50%. Cld serve iced tea like what most Korean restaurants do. Taste of kimchi & cucumbers, macaroni salad & pumpkin can b improved. Cold noodles clumpy. juz giving suggestn hw to improve food to improve biz. May still come back for meat. Pricing okay after 50% disc.",
+                     "Easy transition. Food are delicious. So far so good. Like it",
+                     "Good food.",
+                     "Pleasant experience. Value for money after discount."
+              ]
+       },
+       {
+              "name": "RUBATO @ Greenwood",
+              "location": "Bukit Timah",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011746_list_90d3e42e-198e-4cd2-85ec-ef59c8888916.jpeg",
+              "rating": "4.3",
+              "numOfRating": "10",
+              "description": "Experience the greatest trio of life - comfort food, people and conversations. The soul of San Ren Xing lies not only in serving up culinary delicacies but a place for social interaction and comfort. Though deceptively presented with a simple aesthetic, the dishes achieve sublime perfection with impeccable ingredients, through meticulous and often time-consuming preparations. A meal at San Ren Xing offers diners comfort food outside of the hustle and bustle.",
+              "review": [
+                     "Food was good, staffs were attentive. One of our favourite Korean food joint.",
+                     "We love the food, the meats was great and the frequent change of the grill. My only complaint is that the lettuces are drenched wet making it unappetizing to use as a wrap. We have informed the waitresses about it. Hopefully they shake out the water next time. Also the music could be a little less pounding. Otherwise, my monthly go to for a kbbq beef fix. Love the ribs!",
+                     "food was good and value for money with the discount",
+                     "excellent food quality and good service staff",
+                     "Staff are patient despite being short handed during their meal time. Like the free flow of lettuce, kimchi,garlic etc to go with the bbq meat and also like the pancake. The only complaint is the aircon not strong"
+              ]
+       },
+       {
+              "name": "RUBATO STEAKHOUSE @ Teck Lim Road",
+              "location": "Outram Road",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011747_list_033a3111-f950-4f05-a7c8-28f2718b6aee.jpeg",
+              "rating": "0.0",
+              "numOfRating": "27",
+              "description": "Experience the greatest trio of life-comfort food, people and conversations. \nThe soul of San Ren Xing  lies not only in serving up culinary delicacies but a place for social interaction and comfort.\nThough deceptively presented with a simple aesthetic, the dishes achieve sublime perfection with impeccable ingredients, through meticulous and often time-consuming preparations.\nA meal at San Ren Xing offers diners comfort food outside of the hustle and bustle.",
+              "review": [
+                     "Enjoyed the food! Multiple times there alrdy",
+                     "We ordered premium pork, pork jowl, spicy chicken and they were well marinated and tasty. The kimchi and raw lettuce are self service and are fresh. Service is quite good, we had a good experience overall. Definitely will return again.",
+                     "Good food, pleasant service and nice ambience. The Samgye-tang, and Gyeran-jjim is splendid!",
+                     "Reasonably priced for the service and meat n good charcoal used. Pleasant experience. Mgr Freddy is nice and helpful too. Overall good service",
+                     "Value for money with the 50% discount applied and love the free flow of side dishes"
+              ]
+       },
+       {
+              "name": "Rumpoles Bar @ JEN Singapore Tanglin by Shangri-La",
+              "location": "Tanglin",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012053_list_55b2f3e9-4de3-40c6-b92d-0d3cc41a4b61.jpeg",
+              "rating": "4.0",
+              "numOfRating": "0",
+              "description": "At SanSara, we invite you to embark on a gastronomic voyage, a journey through time and tradition, where the flavours flow harmoniously, and every dish tells a story. As you dine with us, you become a part of this eternal flow, experiencing the essence of India's culinary heritage and the ever-evolving tapestry of flavours that it offers. \n\nSanSara is more than just a restaurant; it's a celebration of the endless flow of life, culture, and cuisine.\n\nCome experience the authentic Northern Indian cuisine by the Singapore River today!",
+              "review": [
+                     "Food is nice although overly priced. If not given 50% will not ho there. With the amount can go for better buffet meal.",
+                     "Service is great. Patient and willing to explain how to order and match the bbq for good food. Food is great too. Thanks.",
+                     "Repeat visit. But seems serving portion for 50% is a bit smaller?",
+                     "Nice food with the 50% discount",
+                     "Food is still great but service can improve."
+              ]
+       },
+       {
+              "name": "Sahara Bar & Restaurant @ Boat Quay",
+              "location": "Boat Quay",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_Sahara_20180423123849_9161.jpg",
+              "rating": "4.2",
+              "numOfRating": "54",
+              "description": "The history of Seorae dates back to Korean monarchs of old, when royal families demanded perfection, where the best quality ingredients were used. The highest quality meat served was galmaegisal, skirt meat that has the perfect combination of tenderness and juiciness. Other must-try meats here are the hangjeongsal (grilled juicy US pork jowl) and samgyeobsal (pork belly). Diners now can get a taste of what Korean royal perfection was all about.",
+              "review": [
+                     "Great ambience and service with tasty food.",
+                     "Friendly staff and food is nice.",
+                     "Very well cooked Indian food. Definitely worth it with the discount. Our children enjoyed it too",
+                     "Enjoyed the food a lot. Will definitely patronize this restaurant again.",
+                     "Good recommendations from the waitress. Awesome food especially the mutton and prawn curry."
+              ]
+       },
+       {
+              "name": "Saketoshi @ UE Square",
+              "location": "Clarke Quay",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011708_list_c8c10a0d-b0ec-4b26-b124-1e094964449f.jpeg",
+              "rating": "0.0",
+              "numOfRating": "42",
+              "description": "The history of Seorae dates back to Korean monarchs of old, when royal families demanded perfection, where the best quality ingredients were used. The highest quality meat served was galmaegisal, skirt meat that has the perfect combination of tenderness and juiciness. Other must-try meats here are the hangjeongsal (grilled juicy US pork jowl) and samgyeobsal (pork belly). Diners now can get a taste of what Korean royal perfection was all about.",
+              "review": [
+                     "Good choices of food, very delicious, highly recommended",
+                     "Very polite and professional staff, food was freshly prepared and delicious. would highly recommend"
+              ]
+       },
+       {
+              "name": "San Laksa Steamboat @ Kitchener Road",
+              "location": "Farrer Park",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011743_list_06b9824a-cafc-41ff-8efc-edc947fc1c77.jpeg",
+              "rating": "4.7",
+              "numOfRating": "86",
+              "description": "The history of Seorae dates back to Korean monarchs of old, when royal families demanded perfection, where the best quality ingredients were used. The highest quality meat served was galmaegisal, skirt meat that has the perfect combination of tenderness and juiciness. Other must-try meats here are the hangjeongsal (grilled juicy US pork jowl) and samgyeobsal (pork belly). Diners now can get a taste of what Korean royal perfection was all about.",
+              "review": [
+                     "Great food as always!",
+                     "3rd time at this restaurant and always enjoyed the dishes and great service from the waitress. As it is my son's birthday, the restaurant gave him a longevity noodle soup. So sweet!",
+                     "Been back",
+                     "Patient and helpful waiters, food cooked as expected without , especially impressed by the cleanly treated pig intestine, reasonable pricing",
+                     "Great ambience, nice food and friendly staff. Will come back again!"
+              ]
+       },
+       {
+              "name": "San Ren Xing 三人行 @ Bedok Mall",
+              "location": "Bedok",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011757_list_ba03f9ec-0e69-486a-b2f7-89553f9a8364.png",
+              "rating": "4.5",
+              "numOfRating": "91",
+              "description": "The history of Seorae dates back to Korean monarchs of old, when royal families demanded perfection, where the best quality ingredients were used. The highest quality meat served was galmaegisal, skirt meat that has the perfect combination of tenderness and juiciness. Other must-try meats here are the hangjeongsal (grilled juicy US pork jowl) and samgyeobsal (pork belly). Diners now can get a taste of what Korean royal perfection was all about.",
+              "review": [
+                     "Hidden Gems. Great food and great hospitality. 5 stars for the food and 6 six stars for the service provided. Will definitely come back",
+                     "Excellent service, ambience and food",
+                     "With eatigo discount, it was nice to have dinner there.",
+                     "Excellent service , she is very engaging and always smiling and always happy to assist ! Best service staff that I have ever encountered! Repeated visit and she really remembers the guests though we were there 10 months ago !",
+                     "All excellent ie. customer service, food, ambience (we brought our 2 pet dogs and were seated outside - non air conditioned) etc. except some irritating mosquitoes."
+              ]
+       },
+       {
+              "name": "San Ren Xing 三人行 @ Bugis Junction",
+              "location": "Bugis",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011756_list_a7126c0e-149a-47a4-b4d7-5feb4cce913e.png",
+              "rating": "4.8",
+              "numOfRating": "23",
+              "description": "Founded in 2008, SHAMIANA Indian Restaurant focuses on curries and tandoor dishes across every region in India. The experienced kitchen use specialised woks for their signature curries and slow-fire clay ovens for tandoori dishes like classic tandoori chicken and tandoori lamb shank, which is marinated overnight.",
+              "review": [
+                     "I enjoyed mutton briyani =)"
+              ]
+       },
+       {
+              "name": "San Ren Xing 三人行 @ Thomson Plaza",
+              "location": "Upper Thomson",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011074_list_022c9ab9-c64a-4ae1-89ea-790cce31b50a.jpeg",
+              "rating": "4.0",
+              "numOfRating": "2",
+              "description": "Shanthee’s Curry launched in 2009 at Veerasamy Road as a small family business enterprise. We serve authentic South Indian dishes from Tamil Nadu. Our Chefs hail from Madurai and Karaikudi and are sure to make one feel at home with their delectable cuisine!\n\n Our signature dishes include Southern style Fish Curry, Masala Tea and Egg Kalaki (Fun Fact: We introduced this dish here in Singapore). We also serve fusion food of high quality that is affordable for all.",
+              "review": [
+                     "Reasonable buffet lunch price with a wide range election of food. The service staffs are friendly, attentive and efficient to clear away the dishes too. Well done.",
+                     "The food are very tasty and nice.",
+                     "staffs are very helpful & accommodating to customers. nice restaurant to dine-in, frie dly atmosphere 👌",
+                     "Friendly service staff. Food selection was decent. No WOW factor.",
+                     "Very delicious food ! Enjoyed the beef rendang, Ayam buah keluak, sotong , satay and many more dishes. Dessert was fantastic with authentic tasting nonya kueh and others."
+              ]
+       },
+       {
+              "name": "SanSara @ Grand Copthorne Waterfront Hotel",
+              "location": "River Valley",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5012216_list_2d89e521-4987-4015-8c6d-08c242f668f9.jpeg",
+              "rating": "4.4",
+              "numOfRating": "31",
+              "description": "Shu Yan is a well-known Sichuan Chinese restaurant established in Chengdu in December 2004. They mainly specialise in Sichuan cuisine, the restaurant draws from the essence of Huaiyang and Cantonese flavours, experimenting with different flavours to create  contemporary Sichuan fusion cuisine. Located at Mohamed Sultan Road, the restaurant draws from the essence of Huaiyang and Cantonese flavours, serves delights like boiled fish fillet in spicy soup, stone pot tofu and fried chicken with dry chilli.",
+              "review": [
+                     "Great staff amazing service. Awesome food too. Would love an even cheesier pizza with a cheese pull.",
+                     "Great service and food",
+                     "always 👍 👍 👍 at Spizza Jalan Kayu! Super Staff and Food",
+                     "Fantastic food. Outstanding staff especially Raf. Hope they give me a return voucher to enjoy their Isabella pizzas.",
+                     "Absolutely beautiful experience at Spizza. Loved the Isabella pizza as it was extremely delicious. Elmer and Raf were the 2 outstanding staff from there, elevating the customer experience to another level. Hope to get a return voucher so that I can continue supporting them. I will also share this restaurant with my friends and encourage them to use Eatigo to book a table at this restaurant."
+              ]
+       },
+       {
+              "name": "SaVour Eat @ Jalan Besar",
+              "location": "Jalan Besar",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5008714_list_4b5e7591-0b6d-49d6-98d5-bcbceff4f682.jpg",
+              "rating": "4.1",
+              "numOfRating": "11",
+              "description": "Newly renovated, Shutters is an all day restaurant, offering relaxed bistro dining focusing on modern intercontinental cuisines. A bright, open dining space with sleek high ceilings, earth toned walls, and an open-kitchen, Shutters allows guests to dine indoors or al fresco on the outdoor terrace. Featuring an open concept kitchen where diners can watch chefs work their magic whipping up dozens of mouth-watering dishes ranging from both International delights to local favourites. Free parking available at Amara Sanctuary Resort Sentosa.",
+              "review": [
+                     "Service and food were good, except that lamb shank was not available and my friend was actually there to have it.",
+                     "Good food great music",
+                     "Excellent environment, music performance, food and the staff service."
+              ]
+       },
+       {
+              "name": "Seorae Korean Charcoal BBQ @ Compass One",
+              "location": "Sengkang",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011463_list_f498200b-0787-4524-803f-a9cdb1c7a422.jpeg",
+              "rating": "4.0",
+              "numOfRating": "0",
+              "description": "Bringing people together through games, music, and so-good vibes.\n\nSo High is a social bar that offers unique experiences through its tech-integrated approach.\n\nOur proprietary app allows patrons to make live reservations and create customised avatars to earn gems that can be exchanged for various goodies in our e-shop. The app also allows patrons to interact with each other and participate in mini-games.\n\nSo High has the largest collection of party board games in Singapore, carefully curated to ensure a great experience with every visit.",
+              "review": [
+                     "GOOD RECOMMENDATION AND PRICE !",
+                     "The food is ok not bad but alot of restrictions coz I booked for 2 pax, we can't order 3 set (but we are big eater) and your position is so small.",
+                     "Ordered Tenderloin n Ribeye but Ribeye was very tough. Overall enjoyed the meal but expect zero service",
+                     "Nice steak and friendly staff",
+                     "Food is good - service so-so."
+              ]
+       },
+       {
+              "name": "Seorae Korean Charcoal BBQ @ JEM",
+              "location": "Jurong East",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_SeoraeKoreanCharocoalBBQJEM_20180207112413_9920.jpg",
+              "rating": "4.0",
+              "numOfRating": "0",
+              "description": "Sticking to a keto diet means having to make some sacrifices. But thanks to Sofi Café, there’s no need to give up your favourite Italian food. You’ll find dishes like mushroom penne, roast pork belly with mash & salad, and burrata pizza featuring the perfect combination of flavourful food, yet still strictly keeping to keto diet requirements. Located along Craig Road, the café is just a short walk from Tanjong Pagar MRT station.",
+              "review": [
+                     "Nice food and good service. Will come back again for more",
+                     "Food r fresh worth it",
+                     "Nice food and value for money with eatigo discount. Will visit again.",
+                     "authentic thai food , with great service ! will be back",
+                     "Nice food n good deal after using eatigo discount"
+              ]
+       },
+       {
+              "name": "Seorae Korean Charcoal BBQ @ NEX",
+              "location": "Serangoon Road",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/restaurant-cover-image/5011462_list_5c988183-eb99-4167-bed6-35b2c2464365.jpeg",
+              "rating": "4.0",
+              "numOfRating": "1",
+              "description": "Sona’s Grill, a new entrant in North Indian cuisine has a vision to provide the Best North Indian",
+              "review": [
+                     "Slay slay",
+                     "The customer service was good, the staff were attentive and friendly. The food was decent too.",
+                     "Love the food! I've been thinking of the chicken and lamb mandi ever since. Must go back again soon.",
+                     "Good and friendly service by staff Nive. She is patient and smiley to explain the different dishes. Food taste good with their skewer mixed grill with the meat still moist on the inside. Coupled well with the refreshing salad, hummus with their mezza combo. Finish off the meal with their mint lemonade as a palate cleanser. Definitely a satisfying meal and good deal with eatigo.",
+                     "Quality and taste"
+              ]
+       },
+       {
+              "name": "Seorae Korean Charcoal BBQ @ Plaza Singapura",
+              "location": "Dhoby Ghaut",
+              "imageLink": "https://cdn.eatigo.com/filters:format(webp)/eatigo_SeoraeKoreanCharcoalBBQ_20170804155027_9883.jpg",
+              "rating": "4.4",
+              "numOfRating": "13",
+              "description": "Striking black and white décor, hints of red, grandly tufted booths and an amber dome; the eye-catching décor is reflected in the walls of cleverly framed mirrors. Not that you'd be staring at your surroundings when there are counters laden with mouth-watering concoctions right before your eyes!\n\nA local flavour buffet by day, Spices Café is a seafood buffet by night and an all-day casual dining destination with an extensive a la carte menu. Located within the Concorde Hotel, visitors will find themselves indulging in a dining experience that reflect the dedicated chef’s culinary styles. They will enjoy dishes like chilli crab, nyonya laksa and ayam buah keluak as they dine within a colonial and regal ambience.",
+              "review": [
+                     "As usual, Tandoori Culture provides good food and outstanding service. So far, none of my friends have been disappointed with the dining experience.",
+                     "Food was great and service excellent!",
+                     "Food was good esp the garlic naan. Service was friendly. Will definitely return with the good eatigo discount",
+                     "The fish curry portion is big and fair amount of meat. Naan is nice! Will come back again.",
+                     "Excellent service and we enjoyed all the food we ordered. Monthly visit to this restaurant. love the Gobi chilli."
+              ]
+       }
 ]
