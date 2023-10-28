@@ -30,7 +30,7 @@
 <div class="card-container">
     {% for restaurant in restaurant_data %}
     <div class="card" style="width: 18rem;">
-        <img src={{ restaurant.image }} class="card-img-top">
+        <img src={{ restaurant.image }} class="image">
         <div class="card-body">
             <h5 class="card-title">{{ restaurant.name }}</h5>
             <p class="card-text">Dietary: {{ restaurant.dietary_needs }}</p>
