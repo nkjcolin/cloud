@@ -82,6 +82,7 @@ def search_restaurants():
 def restaurants_view():
     # Get the rating_order query parameter from the URL
     rating_order = request.args.get('rating_order')
+    min_ratings = request.args.get('min_ratings')
     
     # Create a cursor for executing SQL queries
     cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
@@ -91,6 +92,9 @@ def restaurants_view():
 
     # Build and execute the SQL query
     query = "SELECT * FROM restaurants"
+    
+    if min_ratings:
+        query += f" WHERE numberofrating >= {min_ratings}"
     
     if rating_order == 'high_to_low':
         query += " ORDER BY rating DESC"
