@@ -5,22 +5,21 @@
 {% endblock style %}
 
 {% block body %}
-<div class="container container-info">
-    <div class="row">
-        <img src={{ restaurant.image }} class="card-img-top">
-    </div>
-    <div class="row">
-        <h1>{{ restaurant_data.name }}</h1>
-    </div>
-    <div class="row">
-        <h3>Opening Hours: 8:00 - 22:00</h3>
-    </div>
-    <div class="row">
-        <h4>{{ restaurant_data.description }}</h4>
-    </div>
-</div>
-
 <div class="container container-booking-form">
+    <div class="container container-info">
+        <div class="row">
+            <img src={{ restaurant_data.image }} class="image">
+        </div>
+        <div class="row">
+            <h1>{{ restaurant_data.name }}</h1>
+        </div>
+        <div class="row">
+            <h3>Opening Hours: 8:00 - 22:00</h3>
+        </div>
+        <div class="row">
+            <h4>{{ restaurant_data.description }}</h4>
+        </div>
+    </div>
     <br> <!-- Add a line break here to separate the sections -->
     <div class="row">
         <h4>Book a Table</h4>
@@ -42,7 +41,7 @@
             </div>
             <div class="mb-3">
                 <label for="phone" class="form-label">Phone Number</label>
-                <input type="number" class="form-control" id="phone" name="phone">
+                <input type="text" class="form-control" id="phone" name="phone" maxlength="8">
             </div>
 
             <div class="mb-3">
@@ -55,6 +54,11 @@
                 <select class="form-select form-control" id="size" name="size">
                     <option value="1">1 person</option>
                     <option value="2">2 people</option>
+                    <option value="3">3 people</option>
+                    <option value="4">4 people</option>
+                    <option value="5">5 people</option>
+                    <option value="6">6 people</option>
+                    <option value="7">More than 6 people</option>
                     <!-- Add more options as needed -->
                 </select>
             </div>

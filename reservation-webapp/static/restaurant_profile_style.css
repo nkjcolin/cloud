@@ -1,10 +1,5 @@
 .container-info{
     padding-top: 50px;
-    height: 30vh;
-}
-
-.container-slots{
-    padding-top: 100px;
 }
 
 .button-container {
@@ -17,6 +12,10 @@
 .button-container button{
     text-align: center;
     width: 150px;
+}
+
+.row {
+    padding: 10px;
 }
 
 .image {
