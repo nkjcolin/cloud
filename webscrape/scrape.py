@@ -74,7 +74,7 @@ class Restaurant():
 
         # Specify the output file name (change to your desired file name)
         filename = "restaurant_data.json"
-        json_data = json.dumps(restaurantList, ensure_ascii=False, indent=7)
+        json_data = json.dumps(restaurantList, ensure_ascii=False, indent=8)
 
         # Write the JSON data to the output file
         with open(filename, "w", encoding='utf-8') as output_file:
