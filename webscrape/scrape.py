@@ -23,7 +23,9 @@ imageList = []
 ratingList = []
 numOfRatingList = []
 descriptionList = []
-reviewList = [] 
+reviewList = []
+timeslotList = []
+defaultTimeslot = "['12:00 PM', '1:00 PM', '7:00 PM']" 
 startRange = 1
 numOfRestaurant = 10  # set number of restaurant to scrape
 
@@ -40,7 +42,7 @@ class Restaurant():
         self.driver.close()
 
 
-    def generateJSON(self, names, locations, images, ratings, numOfRatings, descriptions, reviews):
+    def generateJSON(self, names, locations, images, ratings, numOfRatings, descriptions, reviews, timeslots):
         restaurantList = [
             {"name": name, 
              "location": location, 
@@ -48,7 +50,8 @@ class Restaurant():
              "rating": rating, 
              "numOfRating": numOfRating, 
              "description": description, 
-             "review": review
+             "review": review,
+             "timeslot": timeslot
              }
             for name, 
                 location, 
@@ -56,14 +59,16 @@ class Restaurant():
                 rating, 
                 numOfRating, 
                 description, 
-                review 
+                review,
+                timeslot 
                 in zip(names, 
                        locations, 
                        images, 
                        ratings, 
                        numOfRatings, 
                        descriptions, 
-                       reviews
+                       reviews,
+                       timeslots
                        )
         ]
 
@@ -140,6 +145,7 @@ class Restaurant():
                 self.getRating()
                 self.getDescription()
                 self.getReview()
+                self.getTimeslot()
                 
 
             except:
@@ -149,6 +155,9 @@ class Restaurant():
         WebDriverWait(self.driver, 3).until(EC.presence_of_element_located((By.CLASS_NAME, 'restaurant-section--header-info_rating')))
         rating = self.driver.find_element(By.CLASS_NAME, 'restaurant-section--header-info_rating').text
         ratingList.append(rating)
+    
+    def getTimeslot(self):
+        timeslotList.append(defaultTimeslot)
 
     def getDescription(self):
         WebDriverWait(self.driver, 3).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/main/div[1]/section/div[4]/div[1]/div[2]')))
@@ -183,7 +192,7 @@ class Restaurant():
 
 restaurant = Restaurant(driver, url)
 restaurant.nameLocationRatingDesc(url)
-restaurant.generateJSON(nameList, locationList, imageList, ratingList, numOfRatingList, descriptionList, reviewList)
+restaurant.generateJSON(nameList, locationList, imageList, ratingList, numOfRatingList, descriptionList, reviewList, timeslotList)
 restaurant.stopDriver()
 
 
