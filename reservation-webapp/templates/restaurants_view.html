@@ -37,7 +37,6 @@
             <p class="card-text">Meal Type: {{ restaurant.meal_type }}</p>
             <p class="card-text">Rating: {{ restaurant.rating }}/5</p>
             <p class="card-text">Rated By: {{ restaurant.numberofrating }} people</p>
-            <p class="card-text">Timeslot: {{ restaurant.timings }}</p>
             <a href="{{ url_for('restaurant_profile', id=restaurant.id) }}" class="btn btn-primary">View</a>
         </div>
     </div>

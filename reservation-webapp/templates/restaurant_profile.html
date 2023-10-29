@@ -19,6 +19,28 @@
         <div class="row">
             <h4>{{ restaurant_data.description }}</h4>
         </div>
+        <div class="row">
+            <h4>Rating: {{ restaurant_data.rating }}/5</h4>
+        </div>
+        <div class="row">
+            <h4>Rated by: {{ restaurant_data.numberofrating }} people</h4>
+        </div>
+        <div>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                  Show Reviews
+                </button>
+              </p>
+              <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                    {% for review in restaurant_data.reviews.split(',') %}
+                    <div class="card card-body" style="width: 800px;">
+                        {{ review.strip('[]') }}
+                    </div>
+                    {% endfor %}
+                </div>
+              </div>
+        </div>
     </div>
     <br> <!-- Add a line break here to separate the sections -->
     <div class="row">
