@@ -12,7 +12,7 @@
                "The laksa pasta is great. Salted fried lotus was not crispy but rather chewy though. Fish and chips was normal though.",
                "They have an extremely polite and friendly staff who elevate the experience. Menu is a bit limited but food is tasty. Will definitely go back as the 20% discount is available for walk ins too."
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
     },
     {
         "name": "Racines, Sofitel Singapore City Center",
@@ -24,7 +24,7 @@
         "review": [
                "Food quality very good, they need to focus more on ambience. A couple of plates were cracked and there were flies roaming around food"
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
     },
     {
         "name": "Renew Deli | Avocados & Acai @ SAFRA Tampines",
@@ -39,7 +39,7 @@
                "Good food",
                "Laksa is good"
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
     },
     {
         "name": "Harry's @ Boat Quay",
@@ -55,7 +55,7 @@
                "Bun on burger arrived overcooked and rock hard but it was quickly rectified by the kitchen. Fish and chips, fries, Harry’s salad and the margherita pizza were fresh and delicious. Thanks Harry’s for a great meal for me n my family!",
                "The Service is great and accommodating."
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
     },
     {
         "name": "House On The Moon @ GR.iD",
@@ -68,7 +68,7 @@
                "have a kids playground",
                "Great food in a comfortable environment."
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
     },
     {
         "name": "Kurry Korner @ Changi Business Park",
@@ -80,7 +80,7 @@
         "review": [
                "Food is delicious, service is too"
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
     },
     {
         "name": "Los Amigos @ Boat Quay",
@@ -96,7 +96,7 @@
                "Always an enjoyable dinning experiencein Mouth Restaurant for their good services, nice food and value for money menu. Special thanks to Yvonne, Raymond, Ong for their good services at all times.",
                "Highly recommended for their delicious food, good services and reasonable price menu especially great discount using Eatigo apps."
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
     },
     {
         "name": "Makan @Jen at JEN Singapore Orchardgateway",
@@ -112,7 +112,7 @@
                "The food was great but the place is hard to get to.",
                "Great place n nice food. Flexible to start earlier, 15mins before actual. Good deal too"
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
     },
     {
         "name": "Mitsu Sushi Bar @ Duxton Road",
@@ -128,7 +128,7 @@
                "The seafood pasta was very good. Risotto was okay . The vongole pasta was a little bland, not as good . Service was great, but some items were not available probably due to last 1.5hrs before closing. Overall, nice deal .",
                "Affordable and nice!"
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
     },
     {
         "name": "San Ren Xing 三人行 @ Thomson Plaza",
@@ -144,7 +144,7 @@
                "Friendly service staff. Food selection was decent. No WOW factor.",
                "Very delicious food ! Enjoyed the beef rendang, Ayam buah keluak, sotong , satay and many more dishes. Dessert was fantastic with authentic tasting nonya kueh and others."
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
     },
     {
         "name": "San Laksa Steamboat @ Kitchener Road",
@@ -160,7 +160,7 @@
                "Patient and helpful waiters, food cooked as expected without , especially impressed by the cleanly treated pig intestine, reasonable pricing",
                "Great ambience, nice food and friendly staff. Will come back again!"
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
     },
     {
         "name": "Lime Restaurant @ PARKROYAL COLLECTION Pickering, Singapore",
@@ -176,7 +176,7 @@
                "order satay & seafood lemak. satay not hot enough when serve & rice too soft, not recommended. Seafood lemak was good, taste like lasak. Soup, salad & drink was free flow. Overall recommended",
                "Good place good service good food"
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
  
     },
     {
@@ -193,7 +193,7 @@
                "It would be better lf the meal time can be extended",
                "Very nice staff, pretty value for money"
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "[['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
  
     },
     {
@@ -210,7 +210,7 @@
                "Yummy hokkien cuisines. Perfect for family gathering or celebration. Service crew is attentive and friendly!",
                "Great food and good service. Love the braised trotter, the corn fish and many more. With eatigo discount is really worth it. Thanks."
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
  
     },
     {
@@ -227,7 +227,7 @@
             "The fish curry portion is big and fair amount of meat. Naan is nice! Will come back again.",
             "Excellent service and we enjoyed all the food we ordered. Monthly visit to this restaurant. love the Gobi chilli."
         ],
-        "timeslot": "['12:00 PM', '1:00 PM', '7:00 PM']" 
+        "timeslot": "['12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM']" 
     }
 
 ]
