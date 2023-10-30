@@ -2,8 +2,36 @@
 
 ## Overview
 
-This project implements a distributed restaurant reservation management system capable of handling high traffic and providing high availability. We achieve this by using Kubernetes to deploy Docker containers containing a Flask-based application.
+The Restaurant Reservation Management System (RRMS) is a distributed web application designed to recommend restaurants based on user preferences, facilitate reservations, and manage high traffic while ensuring maximum uptime. Users can filter and search for restaurants based on tags like 'healthy/unhealthy' or 'light/medium/heavy', view detailed information about restaurants including their ratings, descriptions, and opening hours, and finally, make reservations.
 
+## Features
+Restaurant Recommendations: Users can choose tags to filter restaurants according to their preferences, such as the type of cuisine or ambiance.
+
+Detailed Restaurant Profiles: Each restaurant listing provides an overall rating, the number of users who have rated it, a description, and its opening hours.
+
+Reservation System: Once a user selects a restaurant, they can fill out a form to make a reservation, helping restaurants manage their bookings efficiently.
+
+Web Scraping for Reviews: An innovative feature, web scraping ensures our ratings and reviews are always updated, refining our restaurant recommendation algorithm.
+
+## Technical Stack
+Flask-Based Application: The backbone of our application is built using the Flask framework.
+
+Docker: We utilize Docker to containerize the application, ensuring a consistent environment across development and deployment.
+
+Kubernetes: Kubernetes handles the deployment and service configuration, ensuring scalability and high availability of the RRMS.
+
+AWS Resources:
+- **RDS (Relational Database Service)**: 
+  - We employ AWS RDS for a scalable and managed cloud database solution.
+
+- **EKS (Elastic Kubernetes Service)**:
+  - AWS EKS manages our Kubernetes cluster, including worker nodes. It provides the robustness and efficiency required for large-scale deployments.
+
+- **Auto-scaling and Load Balancing**: 
+  - To manage high traffic efficiently, the system is equipped with auto-scaling policies that dynamically adjust resources.
+  - A load balancer distributes incoming traffic uniformly across EC2 instances, ensuring optimal performance.
+
+        
 ## Dockerizing the Application
 
 ### Building the Docker Image
@@ -83,12 +111,21 @@ public_ip_adress:5000
 ```bash
 aws eks update-kubeconfig --region us-east-1 --name eks-cluster_name
 ```
+### (EKS) Installation of Stress library 
 ```bash
 sudo yum update
 sudo amazon-linux-extras install epel -y
 sudo yum install -y stress
-sudo stress --cpu 8 --timeout 600
+```
+### (EKS) Simulate high traffic in ec2 instance
+```bash
 sudo nohup stress --cpu 2 --timeout 600 &
+```
+### (EKS) Kill off high traffic in ec2 instance
+```bash
 sudo pkill stress
+```
+### (EKS) Monitor CPU Usage in ec2 instance
+```bash
 top
 ```
