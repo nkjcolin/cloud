@@ -4,9 +4,9 @@ import pymysql
 def bring_data_over_mysql():
     #remember to change to details of aws rds
     connection = pymysql.connect(
-        host='aws-cloud-db.c51u88x7edpw.us-east-1.rds.amazonaws.com',
+        host='clouddb2.ccmmflq8mlun.us-east-2.rds.amazonaws.com',
         user='admin',
-        password='pmB6YW7fYDuRo0Be8sEJ',
+        password='12345678',
         db='clouddb2'
     )
     cursor = connection.cursor()
