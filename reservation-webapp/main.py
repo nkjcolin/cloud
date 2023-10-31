@@ -144,7 +144,7 @@ def particulars_form():
         size = request.form['size']
 
         cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
-        cursor.execute("INSERT INTO particulars VALUES (NULL, %s, %s, %s, %s, %s)", (name, phone, email, size, timing))
+        cursor.execute("INSERT INTO particulars (name, phone, email, size, timing) VALUES (%s, %s, %s, %s, %s)", (name, phone, email, size, timing))
         cursor.connection.commit()
         cursor.close()
 
