@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rbooking.proto\x12\x11restaurantbooking\"`\n\x0e\x42ookingRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x13\n\x0bphoneNumber\x18\x02 \x01(\t\x12\r\n\x05\x65mail\x18\x03 \x01(\t\x12\x0e\n\x06timing\x18\x04 \x01(\t\x12\x0c\n\x04size\x18\x05 \x01(\x05\"^\n\x0c\x42ookingReply\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x13\n\x0bphoneNumber\x18\x02 \x01(\t\x12\r\n\x05\x65mail\x18\x03 \x01(\t\x12\x0e\n\x06timing\x18\x04 \x01(\t\x12\x0c\n\x04size\x18\x05 \x01(\x05\x32\x61\n\x0e\x42ookingService\x12O\n\x07\x42ooking\x12!.restaurantbooking.BookingRequest\x1a\x1f.restaurantbooking.BookingReply\"\x00\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rbooking.proto\x12\x11restaurantbooking\"Z\n\x0e\x42ookingRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\r\n\x05phone\x18\x02 \x01(\t\x12\r\n\x05\x65mail\x18\x03 \x01(\t\x12\x0e\n\x06timing\x18\x04 \x01(\t\x12\x0c\n\x04size\x18\x05 \x01(\x05\"X\n\x0c\x42ookingReply\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\r\n\x05phone\x18\x02 \x01(\t\x12\r\n\x05\x65mail\x18\x03 \x01(\t\x12\x0e\n\x06timing\x18\x04 \x01(\t\x12\x0c\n\x04size\x18\x05 \x01(\x05\x32\x61\n\x0e\x42ookingService\x12O\n\x07\x42ooking\x12!.restaurantbooking.BookingRequest\x1a\x1f.restaurantbooking.BookingReply\"\x00\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,9 +22,9 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _globals['_BOOKINGREQUEST']._serialized_start=36
-  _globals['_BOOKINGREQUEST']._serialized_end=132
-  _globals['_BOOKINGREPLY']._serialized_start=134
-  _globals['_BOOKINGREPLY']._serialized_end=228
-  _globals['_BOOKINGSERVICE']._serialized_start=230
-  _globals['_BOOKINGSERVICE']._serialized_end=327
+  _globals['_BOOKINGREQUEST']._serialized_end=126
+  _globals['_BOOKINGREPLY']._serialized_start=128
+  _globals['_BOOKINGREPLY']._serialized_end=216
+  _globals['_BOOKINGSERVICE']._serialized_start=218
+  _globals['_BOOKINGSERVICE']._serialized_end=315
 # @@protoc_insertion_point(module_scope)

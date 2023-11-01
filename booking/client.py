@@ -12,7 +12,7 @@ def make_booking_with_grpc(name, phone_number, email, timing, size):
     # Create a BookingRequest message
     booking_request = booking_pb2.BookingRequest(
         name=name,
-        phoneNumber=phone_number,
+        phone=phone_number,
         email=email,
         timing=timing,
         size=size

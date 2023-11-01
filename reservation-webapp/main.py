@@ -186,7 +186,7 @@ def make_booking():
         # Create a BookingRequest message
         booking_request = booking_pb2.BookingRequest(
             name=name,
-            phoneNumber=phone,
+            phone=phone,
             email=email,
             timing=timing,
             size=size
