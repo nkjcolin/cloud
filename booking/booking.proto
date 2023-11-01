@@ -8,7 +8,7 @@ service BookingService {
 
 message BookingRequest {
   string name = 1;
-  string phoneNumber = 2;
+  string phone = 2;
   string email = 3;
   string timing = 4;
   int32 size = 5;
@@ -16,7 +16,7 @@ message BookingRequest {
 
 message BookingReply {
   string name = 1;
-  string phoneNumber = 2;
+  string phone = 2;
   string email = 3;
   string timing = 4;
   int32 size = 5;
