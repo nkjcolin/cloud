@@ -8,7 +8,7 @@ class BookingService(pb2_grpc.BookingServiceServicer):
         # Implement your reservation logic here
         response = pb2.BookingReply(
             name=request.name,
-            phoneNumber=request.phoneNumber,
+            phone=request.phone,
             email=request.email,
             timing = request.timing,
             size = request.size
