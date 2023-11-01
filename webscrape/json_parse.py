@@ -6,7 +6,7 @@ def bring_data_over_mysql():
     connection = pymysql.connect(
         host='clouddb2.ccmmflq8mlun.us-east-2.rds.amazonaws.com',
         user='admin',
-        password='w8wIarTDECzxLq$',
+        password='12345678',
         db='clouddb2'
     )
     cursor = connection.cursor()
