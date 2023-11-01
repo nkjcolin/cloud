@@ -1,6 +1,9 @@
 import MySQLdb.cursors
 from flask import Flask, request, render_template, url_for, redirect, session, flash
 from flask_mysqldb import MySQL
+import grpc
+import booking_pb2
+import booking_pb2_grpc
 
 app = Flask(__name__)
 
@@ -134,35 +137,83 @@ def restaurant_profile(id):
     return render_template('restaurant_profile.html', restaurant_data=restaurant_data)
 
 
+# @app.route("/form", methods=['POST'])
+# def particulars_form():
+#     if request.method == "POST":
+#         name = request.form['name']
+#         phone = request.form['phone']
+#         email = request.form['email']
+#         timing = request.form['timing']
+#         size = request.form['size']
+
+#         cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+#         cursor.execute("INSERT INTO particulars (name, phone, email, size, timing) VALUES (%s, %s, %s, %s, %s)", (name, phone, email, size, timing))
+#         cursor.connection.commit()
+#         cursor.close()
+
+#         # Save the form data in a dictionary
+#         form_data = {
+#             'name': name,
+#             'phone': phone,
+#             'email': email,
+#             'timing': timing,
+#             'size': size,
+#         }
+
+#         # Assuming you have a success.html template
+#         return render_template('success.html', form_data=form_data)
+
+#     # Handle GET requests or other cases
+#     return render_template('error.html')  # You can create an error.html template for error cases
+
 @app.route("/form", methods=['POST'])
-def particulars_form():
+def make_booking():
     if request.method == "POST":
+
+        # Extract data from the request
         name = request.form['name']
         phone = request.form['phone']
         email = request.form['email']
         timing = request.form['timing']
-        size = request.form['size']
+        size = int(request.form['size'])
+
+        # Create a gRPC channel to the server
+        channel = grpc.insecure_channel('localhost:50051')  # Replace with your server's address
+
+        # Create a stub for the BookingService
+        stub = booking_pb2_grpc.BookingServiceStub(channel)
+
+        # Create a BookingRequest message
+        booking_request = booking_pb2.BookingRequest(
+            name=name,
+            phoneNumber=phone,
+            email=email,
+            timing=timing,
+            size=size
+        )
+
+        # Call the gRPC client function
+        response = stub.Booking(booking_request)
+
+        # Save the form data in a dictionary
+        form_data = {
+            'name': response.name,
+            'phone': response.phone,
+            'email': response.email,
+            'timing': response.timing,
+            'size': response.size,
+        }
 
         cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
         cursor.execute("INSERT INTO particulars (name, phone, email, size, timing) VALUES (%s, %s, %s, %s, %s)", (name, phone, email, size, timing))
         cursor.connection.commit()
         cursor.close()
 
-        # Save the form data in a dictionary
-        form_data = {
-            'name': name,
-            'phone': phone,
-            'email': email,
-            'timing': timing,
-            'size': size,
-        }
-
         # Assuming you have a success.html template
         return render_template('success.html', form_data=form_data)
 
     # Handle GET requests or other cases
     return render_template('error.html')  # You can create an error.html template for error cases
-
 
 if __name__ == '__main__':
     # app.run(debug=True)

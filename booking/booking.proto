@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package restaurantbooking;
+
+service BookingService {
+  rpc Booking (BookingRequest) returns (BookingReply) {}
+}
+
+message BookingRequest {
+  string name = 1;
+  string phoneNumber = 2;
+  string email = 3;
+  string timing = 4;
+  int32 size = 5;
+}
+
+message BookingReply {
+  string name = 1;
+  string phoneNumber = 2;
+  string email = 3;
+  string timing = 4;
+  int32 size = 5;
+}
