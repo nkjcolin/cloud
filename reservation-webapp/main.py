@@ -8,7 +8,7 @@ app.config['SECRET_KEY'] = 'secretsecret'
 app.config['MYSQL_DB'] = 'clouddb2'
 app.config['MYSQL_USER'] = 'admin'
 app.config['MYSQL_HOST'] = 'clouddb2.ccmmflq8mlun.us-east-2.rds.amazonaws.com'
-app.config['MYSQL_PASSWORD'] = '12345678'
+app.config['MYSQL_PASSWORD'] = 'w8wIarTDECzxLq$'
 
 # app.config['MYSQL_USER'] = 'root'
 # app.config['MYSQL_PASSWORD'] = 'root'
