@@ -42,12 +42,16 @@ To Dockerize this Flask application with gRPC, follow these steps:
 
 2. Build the Docker image using the following command:
 
+MacOS
 ```bash
 docker build -t flask/python-flask .reservation-webapp/
+docker build -t grpc/python .reservation-webapp/booking/
 ```
 
+Windows
 ```bash
-docker build -t grpc/python .reservation-webapp/booking/
+docker build -t flask/python-flask reservation-webapp/
+docker build -t grpc/python reservation-webapp/booking/
 ```
 
 ### Pulling the Docker Image (Optional)
