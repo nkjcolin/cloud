@@ -13,6 +13,9 @@ Reservation System: Once a user selects a restaurant, they can fill out a form t
 
 Web Scraping for Reviews: An innovative feature, web scraping ensures our ratings and reviews are always updated, refining our restaurant recommendation algorithm.
 
+## Project Overview 
+![Overview](/documents/overview.png)
+
 ## Technical Stack
 Flask-Based Application: The backbone of our application is built using the Flask framework.
 
@@ -31,7 +34,16 @@ AWS Resources:
   - To manage high traffic efficiently, the system is equipped with auto-scaling policies that dynamically adjust resources.
   - A load balancer distributes incoming traffic uniformly across EC2 instances, ensuring optimal performance.
 
-        
+## Menu Page
+![Menu](/documents/menu.png)
+## Menu Description
+![Menu Item](/documents/menu-item.png)
+## Booking Form
+![Booking](/documents/booking.png)
+
+
+
+
 ## Dockerizing the Application
 
 ### Building the Docker Image
