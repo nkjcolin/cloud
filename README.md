@@ -36,14 +36,18 @@ AWS Resources:
 
 ### Building the Docker Image
 
-To Dockerize this Flask application, follow these steps:
+To Dockerize this Flask application with gRPC, follow these steps:
 
 1. Open a terminal and navigate to the root directory of the application.
 
-2. Build the Docker image using the following command, replacing `docker_username/python-flask` with your desired image name:
+2. Build the Docker image using the following command:
 
 ```bash
-docker build -t docker_username/python-flask:latest .
+docker build -t flask/python-flask .reservation-webapp/
+```
+
+```bash
+docker build -t grpc/python .reservation-webapp/booking/
 ```
 
 ### Pulling the Docker Image (Optional)
@@ -52,9 +56,17 @@ docker build -t docker_username/python-flask:latest .
 docker image pull hub_username/python-flask:latest
 ```
 
+### Create a network within docker
+```bash
+docker network create my-network
+```
+
 ### Running the Docker Container
 ```bash
-docker container run -d -p 5000:5000 docker_username/python-flask:latest
+docker container run -d --name localhost --network my-network -p 50051:50051 grpc/python
+```
+```bash
+docker container run -d --name flask --network my-network -p 5000:5000 flask/python-flask
 ```
 
 ### Accessing the Application
