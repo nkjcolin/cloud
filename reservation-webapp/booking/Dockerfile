@@ -11,9 +11,6 @@ COPY . /app
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-# Generate Python files from the gRPC service definition
-RUN python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. booking.proto
-
 # Expose the port your Flask application will run on (default is 5000)
 EXPOSE 50051
 
