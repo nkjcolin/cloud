@@ -136,36 +136,6 @@ def restaurant_profile(id):
     cursor.close()
     return render_template('restaurant_profile.html', restaurant_data=restaurant_data)
 
-
-# @app.route("/form", methods=['POST'])
-# def particulars_form():
-#     if request.method == "POST":
-#         name = request.form['name']
-#         phone = request.form['phone']
-#         email = request.form['email']
-#         timing = request.form['timing']
-#         size = request.form['size']
-
-#         cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
-#         cursor.execute("INSERT INTO particulars (name, phone, email, size, timing) VALUES (%s, %s, %s, %s, %s)", (name, phone, email, size, timing))
-#         cursor.connection.commit()
-#         cursor.close()
-
-#         # Save the form data in a dictionary
-#         form_data = {
-#             'name': name,
-#             'phone': phone,
-#             'email': email,
-#             'timing': timing,
-#             'size': size,
-#         }
-
-#         # Assuming you have a success.html template
-#         return render_template('success.html', form_data=form_data)
-
-#     # Handle GET requests or other cases
-#     return render_template('error.html')  # You can create an error.html template for error cases
-
 @app.route("/form", methods=['POST'])
 def make_booking():
     if request.method == "POST":
