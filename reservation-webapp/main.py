@@ -178,7 +178,7 @@ def make_booking():
         size = int(request.form['size'])
 
         # Create a gRPC channel to the server
-        channel = grpc.insecure_channel('localhost:50051')  # Replace with your server's address
+        channel = grpc.insecure_channel('grpc:50051')  # Replace with your server's address
 
         # Create a stub for the BookingService
         stub = booking_pb2_grpc.BookingServiceStub(channel)
@@ -217,5 +217,6 @@ def make_booking():
 
 if __name__ == '__main__':
     # app.run(debug=True)
+
     # make it accessible from your host machine when dockerising the app 
     app.run(host='0.0.0.0', port=5000)
