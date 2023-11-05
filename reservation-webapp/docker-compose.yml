@@ -1,0 +1,21 @@
+version: '3'
+services:
+  flask:
+    build:
+      context: ./
+    image: flask/python-flask:latest  # Set the image name
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./:/app
+    depends_on:
+      - grpc
+
+  grpc:
+    build:
+      context: ./booking/
+    image: grpc/python-grpc:latest  # Set the image name
+    ports:
+      - "50051:50051"
+    volumes:
+      - ./booking:/app
