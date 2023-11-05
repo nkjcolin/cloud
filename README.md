@@ -69,7 +69,7 @@ docker build -t grpc/python reservation-webapp/booking/
 ### Pulling the Docker Image (Optional)
 
 ```bash
-docker image pull hub_username/python-flask:latest
+docker image pull nkjcolin/flask:flask
 ```
 
 ### Create a network within docker
@@ -89,6 +89,44 @@ docker container run -d --name flask --network my-network -p 5000:5000 flask/pyt
 ```bash
 http://localhost:5000
 ```
+
+## Localhost Kubernetes Set up & Deployment
+
+### Docker login
+```bash
+docker login 
+```
+
+### Using the docker image above,
+
+```bash
+docker tag grpc/python:grpc nkjcolin/cloud:grpc
+```
+
+```bash
+docker tag flask/python:flask nkjcolin/cloud:flask
+```
+
+### Create Deployment & Service 
+```bash
+kubectl create -f deployment.yaml
+```
+
+### Forward the traffic from 5000 port to 80
+
+```bash
+kubectl port-forward svc/flask 5000:80
+```
+
+```bash
+kubectl port-forward svc/grpc 50051:50051
+```
+
+### access localhost:5000
+
+
+
+
 
 ## EC2 Kubernetes Set Up & Deployment 
 
