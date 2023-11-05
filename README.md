@@ -54,13 +54,6 @@ To Dockerize this Flask application with gRPC, follow these steps:
 
 2. Build the Docker image using the following command:
 
-MacOS
-```bash
-docker build -t flask/python-flask .reservation-webapp/
-docker build -t grpc/python .reservation-webapp/booking/
-```
-
-Windows
 ```bash
 docker build -t flask/python-flask reservation-webapp/
 docker build -t grpc/python reservation-webapp/booking/
@@ -83,6 +76,10 @@ docker container run -d --name grpc --network my-network -p 50051:50051 grpc/pyt
 ```
 ```bash
 docker container run -d --name flask --network my-network -p 5000:5000 flask/python-flask
+```
+### Optional docker-compose
+```bash
+docker-compose up
 ```
 
 ### Accessing the Application
@@ -122,10 +119,10 @@ kubectl port-forward svc/flask 5000:80
 kubectl port-forward svc/grpc 50051:50051
 ```
 
-### access localhost:5000
-
-
-
+### Accessing the Application
+```bash
+http://localhost:5000
+```
 
 
 ## EC2 Kubernetes Set Up & Deployment 
