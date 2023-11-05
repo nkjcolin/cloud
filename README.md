@@ -62,7 +62,8 @@ docker build -t grpc/python reservation-webapp/booking/
 ### Pulling the Docker Image (Optional)
 
 ```bash
-docker image pull nkjcolin/flask:flask
+docker image pull nkjcolin/cloud:flask
+docker image pull nkjcolin/cloud:grpc
 ```
 
 ### Create a network within docker
