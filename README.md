@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Restaurant Reservation Management System (RRMS) is a distributed web application designed to recommend restaurants based on user preferences, facilitate reservations, and manage high traffic while ensuring maximum uptime. Users can filter and search for restaurants based on tags like 'healthy/unhealthy' or 'light/medium/heavy', view detailed information about restaurants including their ratings, descriptions, and opening hours, and finally, make reservations.
+The Restaurant Reservation Management System (RRMS) is a distributed web application designed to recommend restaurants based on user preferences, facilitate reservations, and manage high traffic while ensuring maximum uptime. Users can filter and search for restaurants based on tags like 'healthy/average/unhealthy' or 'light/medium/heavy', view detailed information about restaurants including their ratings, descriptions, and opening hours, and finally, make reservations.
 
 ## Features
 Restaurant Recommendations: Users can choose tags to filter restaurants according to their preferences, such as the type of cuisine or ambiance.
