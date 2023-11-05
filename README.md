@@ -95,7 +95,7 @@ http://localhost:5000
 docker login 
 ```
 
-### Pulling the Docker Image
+### Pulling the Docker Image (Optional)
 
 ```bash
 docker image pull nkjcolin/cloud:flask
