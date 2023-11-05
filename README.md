@@ -48,6 +48,9 @@ AWS Resources:
 
 ### Building the Docker Image
 
+### Prerequisite 
+ensure you can use the commands - docker
+
 To Dockerize this Flask application with gRPC, follow these steps:
 
 1. Open a terminal and navigate to the root directory of the application.
@@ -90,9 +93,17 @@ http://localhost:5000
 
 ## Localhost Kubernetes Set up & Deployment
 
+### Prerequisite 
+ensure you can use the commands - docker, minikube, kubectl
+
 ### Docker login
 ```bash
 docker login 
+```
+
+### navigate to reservation-webapp directory
+```bash
+cd reservation-webapp
 ```
 
 ### Pulling the Docker Image (Optional)
@@ -113,7 +124,7 @@ minikube start
 kubectl create -f deployment.yaml
 ```
 
-### Forward the traffic from 5000 port to 80
+### Requires 2 terminal to be opened. Forward the traffic from 5000 port to 80, and from port 50051 to 50051
 
 ```bash
 kubectl port-forward svc/flask 5000:80
