@@ -95,14 +95,17 @@ http://localhost:5000
 docker login 
 ```
 
-### Using the docker image above,
+### Pulling the Docker Image
 
 ```bash
-docker tag grpc/python:grpc nkjcolin/cloud:grpc
+docker image pull nkjcolin/cloud:flask
+docker image pull nkjcolin/cloud:grpc
 ```
 
+### start minikube
+
 ```bash
-docker tag flask/python:flask nkjcolin/cloud:flask
+minikube start
 ```
 
 ### Create Deployment & Service 
