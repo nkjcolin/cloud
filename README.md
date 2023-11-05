@@ -77,7 +77,7 @@ docker container run -d --name grpc --network my-network -p 50051:50051 grpc/pyt
 ```bash
 docker container run -d --name flask --network my-network -p 5000:5000 flask/python-flask
 ```
-### Optional docker-compose
+### docker-compose (Optional)
 ```bash
 docker-compose up
 ```
