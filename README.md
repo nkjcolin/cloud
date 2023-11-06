@@ -207,3 +207,27 @@ sudo pkill stress
 ```bash
 top
 ```
+
+
+# Use of webscrape
+ensure you have chrome/edge app chromedriver in your computer
+```bash
+cd webscrape
+```
+
+## For Windows
+```bash
+pip install -r requirements.txt
+```
+```bash
+python scrape.py
+```
+
+## For Mac
+ensure you have chrome app and chromdriver in your computer
+```bash
+pip install -r requirements.txt
+```
+```bash
+python3 scrapeForMac.py
+```
