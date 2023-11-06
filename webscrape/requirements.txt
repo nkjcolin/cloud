@@ -1,3 +1,4 @@
 json
 threading
+pymysql
 selenium
