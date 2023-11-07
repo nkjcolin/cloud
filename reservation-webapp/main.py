@@ -36,24 +36,27 @@ def search_restaurants():
     cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
 
     # Build and execute the SQL query
-    if dietary_needs == "" and meal_type != "":
-        query = "SELECT * FROM restaurants WHERE name LIKE %s AND meal_type = %s"
-        cursor.execute(query, (f'%{search_query}%', meal_type))
+    query = "SELECT * FROM restaurants WHERE 1"  # Start with a basic query that selects all records
 
-    elif search_query != "" and meal_type != "" and meal_type != "":
-        query = "SELECT * FROM restaurants WHERE name LIKE %s"
-        cursor.execute(query, (f'%{search_query}%'))
+    params = []  # List to store query parameters
 
-    elif dietary_needs != "" and meal_type == "":
-        query = "SELECT * FROM restaurants WHERE name LIKE %s AND dietary_needs = %s"
-        cursor.execute(query, (f'%{search_query}%', dietary_needs))
+    # Add search_query condition if it is provided
+    if search_query:
+        query += " AND name LIKE %s"
+        params.append(f"%{search_query}%")
 
-    elif dietary_needs == "" and meal_type == "" and search_query == "":
-        query = "SELECT * FROM restaurants"
-        cursor.execute(query)
-    else:
-        query = "SELECT * FROM restaurants WHERE name LIKE %s AND dietary_needs = %s AND meal_type = %s"
-        cursor.execute(query, (f'%{search_query}%', dietary_needs, meal_type))
+    # Add dietary_needs condition if it is provided
+    if dietary_needs:
+        query += " AND dietary_needs = %s"
+        params.append(dietary_needs)
+
+    # Add meal_type condition if it is provided
+    if meal_type:
+        query += " AND meal_type = %s"
+        params.append(meal_type)
+
+    # Execute the SQL query with the appropriate parameters
+    cursor.execute(query, params)
 
     # Fetch all matching rows
     results = cursor.fetchall()
