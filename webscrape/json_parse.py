@@ -17,12 +17,13 @@ def bring_data_over_mysql():
 
         for item in data:
             for review in item['review']:
-                all_reviews =  all_reviews + "'" + review + "', "
+                all_reviews =  all_reviews + "'" + review + "'//"
 
             all_reviews = all_reviews[:-2] + ']'
 
             query = "INSERT INTO restaurants (name, location, image, rating, numberofrating, description, timings, reviews) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
             cursor.execute(query, (item['name'], item['location'], item['imageLink'], item['rating'], item['numOfRating'], item['description'], item['timeslot'], all_reviews))
+            all_reviews = '['
 
     connection.commit()
     connection.close()
