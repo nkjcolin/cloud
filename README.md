@@ -65,8 +65,8 @@ To Dockerize this Flask application with gRPC, follow these steps:
 2. Build the Docker image using the following command:
 
 ```bash
-docker build -t flask/python-flask reservation-webapp/
-docker build -t grpc/python reservation-webapp/booking/
+docker build -t flask/python-flask:flask reservation-webapp/
+docker build -t grpc/python:grpc reservation-webapp/booking/
 ```
 
 ### Pulling the Docker Image (Optional)
@@ -83,10 +83,10 @@ docker network create my-network
 
 ### Running the Docker Container
 ```bash
-docker container run -d --name grpc --network my-network -p 50051:50051 grpc/python
+docker container run -d --name grpc --network my-network -p 50051:50051 grpc/python:grpc
 ```
 ```bash
-docker container run -d --name flask --network my-network -p 5000:5000 flask/python-flask
+docker container run -d --name flask --network my-network -p 5000:5000 flask/python-flask:flask
 ```
 ### docker-compose (Optional)
 ```bash
