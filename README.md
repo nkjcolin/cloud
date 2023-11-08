@@ -41,7 +41,14 @@ AWS Resources:
 ## Booking Form
 ![Booking](/documents/booking.png)
 
-
+## Run the app alone, from root directory
+requires 2 terminal to be active
+```bash
+python3 reservation-webapp/main.py
+```
+```bash
+python3 reservation-webapp/booking/server.py
+```
 
 
 ## Dockerizing the Application
