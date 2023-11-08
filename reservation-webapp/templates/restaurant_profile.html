@@ -33,7 +33,7 @@
               </p>
               <div style="min-height: 120px;">
                 <div class="collapse collapse-horizontal" id="collapseWidthExample">
-                    {% for review in restaurant_data.reviews.split(',') %}
+                    {% for review in restaurant_data.reviews.split('//') %}
                     <div class="card card-body" style="width: 800px;">
                         {{ review.strip('[]') }}
                     </div>
