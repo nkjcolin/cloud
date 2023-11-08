@@ -42,17 +42,17 @@ def search_restaurants():
 
     # Add search_query condition if it is provided
     if search_query:
-        query += " AND name LIKE %s"
+        query += " AND name LIKE %s AND rating >= 3.5 ORDER BY rating DESC"
         params.append(f"%{search_query}%")
 
     # Add dietary_needs condition if it is provided
     if dietary_needs:
-        query += " AND dietary_needs = %s"
+        query += " AND dietary_needs = %s AND rating >= 3.5 ORDER BY rating DESC"
         params.append(dietary_needs)
 
     # Add meal_type condition if it is provided
     if meal_type:
-        query += " AND meal_type = %s"
+        query += " AND meal_type = %s AND rating >= 3.5 ORDER BY rating DESC"
         params.append(meal_type)
 
     # Execute the SQL query with the appropriate parameters

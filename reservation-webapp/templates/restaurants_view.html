@@ -12,7 +12,6 @@
     <p>
         <label for="rating_order">Sort by Rating:</label>
         <select id="rating_order" name="rating_order">
-            <option value="default" {% if rating_order == 'default' %}selected{% endif %}>Default</option>
             <option value="high_to_low" {% if rating_order == 'high_to_low' %}selected{% endif %}>High to Low</option>
             <option value="low_to_high" {% if rating_order == 'low_to_high' %}selected{% endif %}>Low to High</option>
         </select>
